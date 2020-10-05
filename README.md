@@ -1,2 +1,2 @@
 # psychic-parakeet
-DATA 115 Project
+DATA Projects
