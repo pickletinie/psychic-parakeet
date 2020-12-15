@@ -1,0 +1,363 @@
+## data from : https://raw.githubusercontent.com/nytimes/covid-19-data/c3a5af83957b1ef9eec865201fe5e687bd08ec5e/live/us-counties.csv
+
+## only using total of all cases for the areas in question
+
+"## looked up FIPS to understand what it relates to, per wikipedia/google search: ""The Federal Information Processing Standard Publication 6-4 was a five-digit Federal Information Processing Standards code which uniquely identified counties and county equivalents in the United States, certain U.S. possessions, and certain freely associated states."""
+
+## as the idea that there is no correlation between political affiliation and covid cases as one of the articles that we read suggested. I want to look at that a little more closely
+
+## looked up data info for political information based off county. 
+
+## https://www.snopes.com/tachyon/2016/12/3141-clinton-counties.png?w=512
+
+## https://www.snopes.com/tachyon/2016/12/3141-trump-counties.png?w=512
+
+## https://github.com/tonmcg/US_County_Level_Election_Results_08-20/blob/master/2020_US_County_Level_Presidential_Results.csv
+
+## https://github.com/tonmcg/US_County_Level_Election_Results_08-20
+
+"## selected the one for the 2020 election political leanings, as this is closer to what people would expect to be voting. I may also opt to include the information from 2016, as the idea that this election that was just done caused an increase in democratic voters. and as the current president warned his consituants from voting by mail, there may hava been an unintended decrease in republican voters during this last election"
+
+## added data from new data set onto a copy of the sheet with current covid cases.
+
+"## as there were more covid cases listing counties than the informtion from the master list of counties, made simple X=X in excel to locate where the data began to change and the political data needed to be moved down to match the FIPS codes"
+
+## used US census data to correct FIPS codes that were not correct in the data set for political leanings
+
+"## some locations of US have covid information, but no voter data as they are not able to vote in the presidential election, therefore https://www.electionguide.org was used to identify the voters and the percentage of DEM vs GOP voters of the area"
+
+## https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-puerto-rico-municipios.html << this is actually the population up til late 2019
+
+"## Kansas City, Missouri is located in 4 counties, so I added their deaths to Jackson County with that fips code as the majority of the city lies in its boundries (per sq mi)"
+
+## then went and located data for the total populations for each FIPS county to add to the data sheet that I want to use and look at : https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-detail.html
+
+"## able to locate more demographical information about area, and adding it to the sheet to see if we can get a more comprehensive look at the infection rates."
+
+## how to read the data that was from the census sheet : https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2019/cc-est2019-agesex.pdf
+
+"## cell added to add the population for under 19 and the cells that held data for those  20-64 then final column for above 65, these ages are chosen instead of until populations to age 18 as states consider a person who is age 18 and 364 days still a child, and able to recieve childhood vaccines as states still consider them wards, and the states being responsible, despite being over the ""legal adult"" age."
+
+"## shortened % of the democratic/gop for the voting data to only 3 places to help my mental acquity with dealing with the 12 places they were listed as before, and formated the cells to show as percentages vs the numberical values before which were the 0.XX"
+
+## opted to add sex to the three sections of the age ranges just for more data that may be applicable later
+
+## color coded areas on the census data so it was easier to see which field was which.
+
+## simple formula added to the sheet to add together the metrics that I wanted to have explored in my data analysis.
+
+"## repeated this process for all 50 states, and all the information I was able to locate on the parts of the US that are not states, but still part of the US."
+
+"## as some of the age data overlaped on some of the sets, marked ones that were not being used dark to prevent using the same population #s more than once. "
+
+"## even though the data is pulled from the US census, checks were preformed to ensure that the data was accurate as far as numbers reported"
+
+## idea was presented that there may also be a land mass to population correlation with some of these areas.
+
+"## New York City is a sui generis jurisdiction, in which the city government consists of 5 boroughs each coterminous with a county of New York State."
+
+## Louisiana has no counties. The 64 parishes of Louisiana are counted as county-equivalents by the U.S. Census Bureau.
+
+## Puerto Rico has no counties. The 78 municipalities of Puerto Rico are counted as county-equivalents by the U.S. Census Bureau.
+
+"## Alaska has no counties. The following areas in Alaska are counted as county-equivalents: the 19 organized boroughs and, in its Unorganized Borough, of 11 designated census areas."
+
+"## The 3 districts and 2 unorganized atolls of American Samoa are counted as county-equivalents by the U.S. Census Bureau. American Samoa locally has 14 “counties”, but these “counties” are not counted as counties by the U.S. Census Bureau (they are treated as “minor civil divisions”)"
+
+## The Northern Mariana Islands has no counties. The 4 municipalities of the Northern Mariana Islands are counted as county-equivalents by the U.S. Census Bureau.
+
+## The U.S. Virgin Islands has no counties. The 3 main islands of the U.S. Virgin Islands are counted as county-equivalents by the U.S. Census Bureau.
+
+## Guam has no counties; Guam is considered both a state-equivalent and a county-equivalent for statistical purposes by the U.S. Census Bureau (similar to the District of Columbia).
+
+## The District of Columbia has no counties; the District of Columbia is considered both a state-equivalent and a county equivalent for statistical purposes
+
+"## Total (50 states, District of Columbia and territories): 3,243 (3,007 counties and 236 county equivalents)"
+
+## https://ce.naco.org/?find=true shows specific demographics of land area per county
+
+## they also host an interesting map : https://ce.naco.org/?dset=COVID-19%20Cases&ind=Confirmed%20COVID-19%20Cases
+
+## their data site that the information was pulled from: https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
+
+## and detailed information about where they gathered their data from: https://usafacts.org/articles/detailed-methodology-covid-19-data/
+
+"##opting to not to include locations that are too far removed from the united states from this analysis. These locations include such places as Guam, US Samoa, and the Northern Marianas islands. This is due to the travel restrictions, and the distance from the central ""lower 48"" states."
+
+"## found all state area, and then also looked up data from census.org quickfacts about each state. Combined all 14 sheets of information, and then removed the fields that I do no care about such as how many businessses are owned for males/females, and how much people spent on food, etc."
+
+"## combined native fields into one to have less fields, as they are the lowest, and both native to the land they occupy"
+
+"## population per sq mile were antiquated from 2010, so adjusted for current population"
+
+"## noted change the prision population making a drastic change in the amount of people that were incarcerated yearly around 2010. as Obama had taken office and made reform policies, there would probably be some strong correlation with that assumption, however that is not what i am looking for as far research, so i will digress with looking up population that are at risk, and potentially skewing the current data. "
+
+"## some concern about in accuracies with the ICE/Border Patrol report as many of the numbers that are to represent people are not whole numbers, and cause adding cells to get errors. However, I am not too surprised that it is their data that is sketchy"
+
+"## as the numbers from ICE are not citiczens, I am not sure if I want to count them, however they are still humans being detained in different locations across the US for one reason or another, and therefore, they are still able to contract C19, or spread it. Also-- ICE keeps people at the Holiday Inn??"
+
+## added formula to see if the median age was at all similar to the average age of the county. Used the median of the age brackets of 2 year intervals to determine this
+
+"## County land area was only able to be located on wikipedia, so I had to take what I could get that was easily accessible"
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_Washington
+
+## https://en.wikipedia.org/wiki/List_of_boroughs_and_census_areas_in_Alaska
+
+## https://en.wikipedia.org/wiki/Municipalities_of_Puerto_Rico
+
+## https://en.wikipedia.org/wiki/Municipalities_of_Puerto_Rico
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_Wyoming
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_Wisconsin
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_West_Virginia
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_Virginia
+
+## https://en.wikipedia.org/wiki/List_of_counties_in_Vermont
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
