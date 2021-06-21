@@ -1,0 +1,17 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Androscoggin,Maine,23001,8339,85
+6/10/2021,Aroostook,Maine,23003,1882,46
+6/10/2021,Cumberland,Maine,23005,17180,197
+6/10/2021,Franklin,Maine,23007,1358,15
+6/10/2021,Hancock,Maine,23009,1367,38
+6/10/2021,Kennebec,Maine,23011,6546,74
+6/10/2021,Knox,Maine,23013,1142,6
+6/10/2021,Lincoln,Maine,23015,1072,3
+6/10/2021,Oxford,Maine,23017,3616,66
+6/10/2021,Penobscot,Maine,23019,6267,94
+6/10/2021,Piscataquis,Maine,23021,572,6
+6/10/2021,Sagadahoc,Maine,23023,1471,11
+6/10/2021,Somerset,Maine,23025,2252,33
+6/10/2021,Waldo,Maine,23027,1042,21
+6/10/2021,Washington,Maine,23029,926,16
+6/10/2021,York,Maine,23031,13417,132

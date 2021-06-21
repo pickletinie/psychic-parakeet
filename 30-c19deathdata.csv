@@ -1,0 +1,57 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Beaverhead,Montana,30001,921,11
+6/10/2021,Big Horn,Montana,30003,2581,76
+6/10/2021,Blaine,Montana,30005,804,24
+6/10/2021,Broadwater,Montana,30007,512,5
+6/10/2021,Carbon,Montana,30009,897,17
+6/10/2021,Carter,Montana,30011,151,5
+6/10/2021,Cascade,Montana,30013,9353,184
+6/10/2021,Chouteau,Montana,30015,516,7
+6/10/2021,Custer,Montana,30017,1205,18
+6/10/2021,Daniels,Montana,30019,197,8
+6/10/2021,Dawson,Montana,30021,1099,29
+6/10/2021,Deer Lodge,Montana,30023,1121,15
+6/10/2021,Fallon,Montana,30025,287,2
+6/10/2021,Fergus,Montana,30027,1124,31
+6/10/2021,Flathead,Montana,30029,12300,98
+6/10/2021,Gallatin,Montana,30031,14989,63
+6/10/2021,Garfield,Montana,30033,80,2
+6/10/2021,Glacier,Montana,30035,1545,42
+6/10/2021,Golden Valley,Montana,30037,57,2
+6/10/2021,Granite,Montana,30039,202,2
+6/10/2021,Hill,Montana,30041,2023,45
+6/10/2021,Jefferson,Montana,30043,1107,8
+6/10/2021,Judith Basin,Montana,30045,91,1
+6/10/2021,Lake,Montana,30047,2126,36
+6/10/2021,Lewis and Clark,Montana,30049,7006,88
+6/10/2021,Liberty,Montana,30051,119,1
+6/10/2021,Lincoln,Montana,30053,1631,18
+6/10/2021,McCone,Montana,30055,183,1
+6/10/2021,Madison,Montana,30057,789,8
+6/10/2021,Meagher,Montana,30059,152,7
+6/10/2021,Mineral,Montana,30061,272,0
+6/10/2021,Missoula,Montana,30063,9293,95
+6/10/2021,Musselshell,Montana,30065,368,13
+6/10/2021,Park,Montana,30067,1451,20
+6/10/2021,Petroleum,Montana,30069,12,1
+6/10/2021,Phillips,Montana,30071,524,16
+6/10/2021,Pondera,Montana,30073,507,4
+6/10/2021,Powder River,Montana,30075,126,6
+6/10/2021,Powell,Montana,30077,931,11
+6/10/2021,Prairie,Montana,30079,141,2
+6/10/2021,Ravalli,Montana,30081,3222,46
+6/10/2021,Richland,Montana,30083,1244,18
+6/10/2021,Roosevelt,Montana,30085,1667,55
+6/10/2021,Rosebud,Montana,30087,1229,50
+6/10/2021,Sanders,Montana,30089,657,15
+6/10/2021,Sheridan,Montana,30091,424,5
+6/10/2021,Silver Bow,Montana,30093,4131,86
+6/10/2021,Stillwater,Montana,30095,744,14
+6/10/2021,Sweet Grass,Montana,30097,403,7
+6/10/2021,Teton,Montana,30099,506,6
+6/10/2021,Toole,Montana,30101,723,11
+6/10/2021,Treasure,Montana,30103,55,1
+6/10/2021,Valley,Montana,30105,902,18
+6/10/2021,Wheatland,Montana,30107,180,8
+6/10/2021,Wibaux,Montana,30109,121,6
+6/10/2021,Yellowstone,Montana,30111,17797,270

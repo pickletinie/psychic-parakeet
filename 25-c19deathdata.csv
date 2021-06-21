@@ -1,0 +1,15 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Barnstable,Massachusetts,25001,17286,471
+6/10/2021,Berkshire,Massachusetts,25003,9897,288
+6/10/2021,Bristol,Massachusetts,25005,70146,1736
+6/10/2021,Dukes,Massachusetts,25007,4777,1
+6/10/2021,Essex,Massachusetts,25009,101134,2396
+6/10/2021,Franklin,Massachusetts,25011,5941,114
+6/10/2021,Hampden,Massachusetts,25013,55701,1533
+6/10/2021,Hampshire,Massachusetts,25015,12516,299
+6/10/2021,Middlesex,Massachusetts,25017,138500,3771
+6/10/2021,Nantucket,Massachusetts,25019,4883,1
+6/10/2021,Norfolk,Massachusetts,25021,58286,1796
+6/10/2021,Plymouth,Massachusetts,25023,52587,1441
+6/10/2021,Suffolk,Massachusetts,25025,96322,1845
+6/10/2021,Worcester,Massachusetts,25027,80613,2239

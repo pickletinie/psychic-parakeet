@@ -1,0 +1,25 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Allegany,Maryland,24001,7026,211
+6/10/2021,Anne Arundel,Maryland,24003,43882,656
+6/10/2021,Baltimore,Maryland,24005,65829,1665
+6/10/2021,Calvert,Maryland,24009,4228,85
+6/10/2021,Caroline,Maryland,24011,2348,30
+6/10/2021,Carroll,Maryland,24013,9514,253
+6/10/2021,Cecil,Maryland,24015,6314,152
+6/10/2021,Charles,Maryland,24017,10908,211
+6/10/2021,Dorchester,Maryland,24019,2843,65
+6/10/2021,Frederick,Maryland,24021,19810,341
+6/10/2021,Garrett,Maryland,24023,2042,65
+6/10/2021,Harford,Maryland,24025,16611,296
+6/10/2021,Howard,Maryland,24027,19276,252
+6/10/2021,Kent,Maryland,24029,1352,51
+6/10/2021,Montgomery,Maryland,24031,71075,1615
+6/10/2021,Prince George's,Maryland,24033,85304,1582
+6/10/2021,Queen Anne's,Maryland,24035,3003,51
+6/10/2021,St. Mary's,Maryland,24037,6038,131
+6/10/2021,Somerset,Maryland,24039,2615,68
+6/10/2021,Talbot,Maryland,24041,2169,44
+6/10/2021,Washington,Maryland,24043,14634,328
+6/10/2021,Wicomico,Maryland,24045,7701,172
+6/10/2021,Worcester,Maryland,24047,3673,106
+6/10/2021,Baltimore city,Maryland,24510,53006,1237
