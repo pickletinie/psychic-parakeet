@@ -1,0 +1,32 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Alaska,Aleutians East Borough,2013,3509,3476,7311,48.00%,47.54%,95.54%,RIGHT,3337
+Alaska,Aleutians West Census Area,2016,3671,2102,6131,59.88%,34.28%,94.16%,RIGHT,5634
+Alaska,Anchorage,2020,6070,1902,8375,72.48%,22.71%,95.19%,RIGHT,280219
+Alaska,Bethel Census Area,2050,4687,5347,10585,44.28%,50.51%,94.79%,LEFT,18386
+Alaska,Bristol Bay Borough,2060,4077,4203,8653,47.12%,48.57%,95.69%,LEFT,836
+Alaska,Denali Borough,2068,5750,3264,9430,60.98%,34.61%,95.59%,RIGHT,2097
+Alaska,Dillingham Census Area,2070,7023,2212,9614,73.05%,23.01%,96.06%,RIGHT,4916
+Alaska,Fairbanks North Star Borough,2090,7590,1952,9883,76.80%,19.75%,96.55%,RIGHT,96849
+Alaska,Haines Borough,2100,7781,2768,10986,70.83%,25.20%,96.02%,RIGHT,2535
+Alaska,Hoonah-Angoon Census Area,2105,8069,2724,11190,72.11%,24.34%,96.45%,RIGHT,2148
+Alaska,Juneau City and Borough,2110,7092,3129,10623,66.76%,29.45%,96.22%,RIGHT,31974
+Alaska,Kenai Peninsula Borough,2122,7871,2954,11213,70.20%,26.34%,96.54%,RIGHT,58708
+Alaska,Ketchikan Gateway Borough,2130,4649,2663,7707,60.32%,34.55%,94.87%,RIGHT,13901
+Alaska,Kodiak Island Borough,2150,6711,4260,11437,58.68%,37.25%,95.93%,RIGHT,12998
+Alaska,Kusilvak Census Area,2158,2658,2614,5538,48.00%,47.20%,95.20%,RIGHT,8314
+Alaska,Lake and Peninsula Borough,2164,3519,4273,8121,43.33%,52.62%,95.95%,LEFT,1592
+Alaska,Matanuska-Susitna Borough,2170,2774,4095,7159,38.75%,57.20%,95.95%,LEFT,108017
+Alaska,Nome Census Area,2180,6711,4260,11437,58.68%,37.25%,95.93%,RIGHT,10004
+Alaska,North Slope Borough,2185,2658,2614,5538,48.00%,47.20%,95.20%,RIGHT,9832
+Alaska,Northwest Arctic Borough,2188,2350,4834,7410,31.71%,65.24%,96.95%,LEFT,7621
+Alaska,Petersburg Borough,2195,3685,5409,9419,39.12%,57.43%,96.55%,LEFT,3266
+Alaska,Prince of Wales-Hyder Census Area,2198,4662,4541,9484,49.16%,47.88%,97.04%,RIGHT,6203
+Alaska,Sitka City and Borough,2220,3636,3796,7705,47.19%,49.27%,0.964568462,LEFT,8493
+Alaska,Skagway Municipality,2230,5374,4734,10422,51.56%,45.43%,0.969871426,RIGHT,1183
+Alaska,Southeast Fairbanks Census Area,2240,4385,4592,9294,47.18%,49.41%,96.59%,LEFT,6893
+Alaska,Valdez-Cordova Census Area,2261,5241,4557,10108,51.85%,45.08%,96.93%,RIGHT,9202
+Alaska,Wrangell City and Borough,2275,4429,3496,8313,53.28%,42.05%,95.33%,RIGHT,2502
+Alaska,Yukon-Koyukuk Census Area,2290,4319,4843,9499,45.47%,50.98%,96.45%,LEFT,5230
+Alaska,Yakutat,2882,3058,7534,10952,27.92%,68.79%,96.71%,LEFT,579
+Alaska,Skagway Municipality,2930,6154,6259,12736,48.32%,49.14%,97.46%,LEFT,1183
+Alaska,Southeast Fairbanks Census Area ,2940,7455,2984,10737,69.43%,27.79%,97.22%,RIGHT,6893

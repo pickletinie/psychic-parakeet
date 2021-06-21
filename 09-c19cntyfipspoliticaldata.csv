@@ -1,0 +1,9 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Connecticut,Fairfield,9001,169039,297505,473005,35.74%,62.90%,98.63%,LEFT,943332
+Connecticut,Hartford,9003,159024,283368,449335,35.39%,63.06%,98.45%,LEFT,891720
+Connecticut,Litchfield,9005,55601,50164,107549,51.70%,46.64%,98.34%,RIGHT,180333
+Connecticut,Middlesex,9007,40665,56848,99198,40.99%,57.31%,98.30%,LEFT,162436
+Connecticut,New Haven,9009,169892,242629,418003,40.64%,58.04%,98.69%,LEFT,854757
+Connecticut,New London,9011,57110,79459,139604,40.91%,56.92%,97.83%,LEFT,265206
+Connecticut,Tolland,9013,34819,44006,80546,43.23%,54.63%,97.86%,LEFT,150721
+Connecticut,Windham,9015,29141,26701,57077,51.06%,46.78%,97.84%,RIGHT,116782

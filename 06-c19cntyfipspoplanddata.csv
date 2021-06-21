@@ -1,0 +1,76 @@
+state,county,fips,POP tot,land area (sq/mi),pop/sqmi
+California,Alameda,06001,1671329,738,2264.7
+California,Alpine,06003,1129,739,1.5
+California,Amador,06005,39752,606,65.6
+California,Butte,06007,219186,1640,133.7
+California,Calaveras,06009,45905,1020,45
+California,Colusa,06011,21547,1151,18.7
+California,Contra Costa,06013,1153526,720,1602.1
+California,Del Norte,06015,27812,1008,27.6
+California,El Dorado,06017,192843,1712,112.6
+California,Fresno,06019,999101,5963,167.6
+California,Glenn,06021,28393,1315,21.6
+California,Humboldt,06023,135558,3573,37.9
+California,Imperial,06025,181215,4175,43.4
+California,Inyo,06027,18039,10192,1.8
+California,Kern,06029,900202,8142,110.6
+California,Kings,06031,152940,1390,110
+California,Lake,06033,64386,1258,51.2
+California,Lassen,06035,30573,4558,6.7
+California,Los Angeles,06037,10039107,4060,2472.7
+California,Madera,06039,157327,2138,73.6
+California,Marin,06041,258826,520,497.7
+California,Mariposa,06043,17203,1451,11.9
+California,Mendocino,06045,86749,3509,24.7
+California,Merced,06047,277680,1929,144
+California,Modoc,06049,8841,3944,2.2
+California,Mono,06051,14444,3044,4.7
+California,Monterey,06053,434061,3322,130.7
+California,Napa,06055,137744,754,182.7
+California,Nevada,06057,99755,958,104.1
+California,Orange,06059,3175692,948,3349.9
+California,Placer,06061,398329,1407,283.1
+California,Plumas,06063,18807,2554,7.4
+California,Riverside,06065,2470546,7208,342.8
+California,Sacramento,06067,1552058,966,1606.7
+California,San Benito,06069,62808,1389,45.2
+California,San Bernardino,06071,2180085,20062,108.7
+California,San Diego,06073,3338330,4204,794.1
+California,San Francisco,06075,881549,47,18756.4
+California,San Joaquin,06077,762148,1399,544.8
+California,San Luis Obispo,06079,283111,3304,85.7
+California,San Mateo,06081,766573,449,1707.3
+California,Santa Barbara,06083,446499,2738,163.1
+California,Santa Clara,06085,1927852,1291,1493.3
+California,Santa Cruz,06087,273213,446,612.6
+California,Shasta,06089,180080,3786,47.6
+California,Sierra,06091,3005,953,3.2
+California,Siskiyou,06093,43539,6287,6.9
+California,Solano,06095,447643,828,540.6
+California,Sonoma,06097,494336,1576,313.7
+California,Stanislaus,06099,550660,1495,368.3
+California,Sutter,06101,96971,603,160.8
+California,Tehama,06103,65084,2951,22.1
+California,Trinity,06105,12285,3179,3.9
+California,Tulare,06107,466195,4824,96.6
+California,Tuolumne,06109,54478,2236,24.4
+California,Ventura,06111,846006,1846,458.3
+California,Yolo,06113,220500,1012,217.9
+California,Yuba,06115,78668,630,124.9
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

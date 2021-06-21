@@ -1,0 +1,59 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Alameda,California,06001,89325,1719
+6/10/2021,Alpine,California,06003,89,0
+6/10/2021,Amador,California,06005,3705,47
+6/10/2021,Butte,California,06007,12555,194
+6/10/2021,Calaveras,California,06009,2195,56
+6/10/2021,Colusa,California,06011,2276,18
+6/10/2021,Contra Costa,California,06013,70168,805
+6/10/2021,Del Norte,California,06015,1448,8
+6/10/2021,El Dorado,California,06017,10334,115
+6/10/2021,Fresno,California,06019,102690,1717
+6/10/2021,Glenn,California,06021,2945,27
+6/10/2021,Humboldt,California,06023,4408,46
+6/10/2021,Imperial,California,06025,28764,738
+6/10/2021,Inyo,California,06027,1433,38
+6/10/2021,Kern,California,06029,110546,1400
+6/10/2021,Kings,California,06031,23170,247
+6/10/2021,Lake,California,06033,3541,45
+6/10/2021,Lassen,California,06035,5770,24
+6/10/2021,Los Angeles,California,06037,1246438,24432
+6/10/2021,Madera,California,06039,16580,245
+6/10/2021,Marin,California,06041,14114,229
+6/10/2021,Mariposa,California,06043,461,7
+6/10/2021,Mendocino,California,06045,4268,50
+6/10/2021,Merced,California,06047,32241,474
+6/10/2021,Modoc,California,06049,377,3
+6/10/2021,Mono,California,06051,1294,4
+6/10/2021,Monterey,California,06053,43788,419
+6/10/2021,Napa,California,06055,9972,80
+6/10/2021,Nevada,California,06057,4865,75
+6/10/2021,Orange,California,06059,272617,5092
+6/10/2021,Placer,California,06061,23305,297
+6/10/2021,Plumas,California,06063,733,6
+6/10/2021,Riverside,California,06065,301284,4617
+6/10/2021,Sacramento,California,06067,107116,1716
+6/10/2021,San Benito,California,06069,6078,63
+6/10/2021,San Bernardino,California,06071,298843,4782
+6/10/2021,San Diego,California,06073,281004,3765
+6/10/2021,San Francisco,California,06075,37146,552
+6/10/2021,San Joaquin,California,06077,74350,1429
+6/10/2021,San Luis Obispo,California,06079,21399,261
+6/10/2021,San Mateo,California,06081,42502,666
+6/10/2021,Santa Barbara,California,06083,34557,460
+6/10/2021,Santa Clara,California,06085,119793,2166
+6/10/2021,Santa Cruz,California,06087,16198,208
+6/10/2021,Shasta,California,06089,12539,230
+6/10/2021,Sierra,California,06091,55,0
+6/10/2021,Siskiyou,California,06093,2385,37
+6/10/2021,Solano,California,06095,33564,264
+6/10/2021,Sonoma,California,06097,30586,323
+6/10/2021,Stanislaus,California,06099,63142,1068
+6/10/2021,Sutter,California,06101,9599,111
+6/10/2021,Tehama,California,06103,5093,63
+6/10/2021,Trinity,California,06105,332,3
+6/10/2021,Tulare,California,06107,49812,849
+6/10/2021,Tuolumne,California,06109,4183,69
+6/10/2021,Ventura,California,06111,81546,1026
+6/10/2021,Yolo,California,06113,14102,212
+6/10/2021,Yuba,California,06115,6426,50

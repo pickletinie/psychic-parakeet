@@ -1,0 +1,28 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Aleutians East Borough,Alaska,02013,367,3
+6/10/2021,Aleutians West Census Area,Alaska,02016,710,0
+6/10/2021,Anchorage,Alaska,02020,30656,174
+6/10/2021,Bethel Census Area,Alaska,02050,3904,22
+6/10/2021,Denali Borough,Alaska,02068,111,0
+6/10/2021,Dillingham Census Area,Alaska,02070,231,2
+6/10/2021,Fairbanks North Star Borough,Alaska,02090,7978,43
+6/10/2021,Haines Borough,Alaska,02100,28,0
+6/10/2021,Juneau City and Borough,Alaska,02110,1446,3
+6/10/2021,Kenai Peninsula Borough,Alaska,02122,4535,19
+6/10/2021,Ketchikan Gateway Borough,Alaska,02130,652,1
+6/10/2021,Kodiak Island Borough,Alaska,02150,1121,6
+6/10/2021,Kusilvak Census Area,Alaska,02158,1317,4
+6/10/2021,Matanuska-Susitna Borough,Alaska,02170,11726,55
+6/10/2021,Nome Census Area,Alaska,02180,386,0
+6/10/2021,North Slope Borough,Alaska,02185,1080,4
+6/10/2021,Northwest Arctic Borough,Alaska,02188,621,2
+6/10/2021,Petersburg Borough,Alaska,02195,166,0
+6/10/2021,Prince of Wales-Hyder Census Area,Alaska,02198,163,1
+6/10/2021,Sitka City and Borough,Alaska,02220,359,0
+6/10/2021,Skagway Municipality,Alaska,02230,20,0
+6/10/2021,Southeast Fairbanks Census Area,Alaska,02240,754,5
+6/10/2021,Valdez-Cordova Census Area,Alaska,02261,675,2
+6/10/2021,Wrangell City and Borough,Alaska,02275,57,0
+6/10/2021,Yukon-Koyukuk Census Area,Alaska,02290,366,4
+6/10/2021,Bristol Bay plus Lake and Peninsula,Alaska,02997,199,0
+6/10/2021,Yakutat plus Hoonah-Angoon,Alaska,02998,376,2

@@ -1,0 +1,6 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Hawaii,Hawaii,15001,3060,53
+6/10/2021,Honolulu,Hawaii,15003,27387,392
+6/10/2021,Kalawao,Hawaii,15005,1,0
+6/10/2021,Kauai,Hawaii,15007,327,2
+6/10/2021,Maui,Hawaii,15009,4747,55

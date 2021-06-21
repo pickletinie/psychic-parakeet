@@ -1,0 +1,4 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Delaware,Kent,10001,41009,44552,87025,47.12%,51.19%,98.32%,LEFT,180786
+Delaware,New Castle,10003,88364,195034,287633,30.72%,67.81%,98.53%,LEFT,558753
+Delaware,Sussex,10005,71230,56682,129352,55.07%,43.82%,98.89%,RIGHT,234225

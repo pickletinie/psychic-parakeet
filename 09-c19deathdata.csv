@@ -1,0 +1,9 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Fairfield,Connecticut,09001,100247,2201
+6/10/2021,Hartford,Connecticut,09003,84266,2431
+6/10/2021,Litchfield,Connecticut,09005,14632,298
+6/10/2021,Middlesex,Connecticut,09007,12817,371
+6/10/2021,New Haven,Connecticut,09009,92127,2126
+6/10/2021,New London,Connecticut,09011,22749,450
+6/10/2021,Tolland,Connecticut,09013,10796,187
+6/10/2021,Windham,Connecticut,09015,10912,195

@@ -1,0 +1,16 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Apache,Arizona,04001,11432,433
+6/10/2021,Cochise,Arizona,04003,12103,292
+6/10/2021,Coconino,Arizona,04005,17880,331
+6/10/2021,Gila,Arizona,04007,6984,229
+6/10/2021,Graham,Arizona,04009,5619,83
+6/10/2021,Greenlee,Arizona,04011,577,10
+6/10/2021,La Paz,Arizona,04012,2481,80
+6/10/2021,Maricopa,Arizona,04013,553711,10137
+6/10/2021,Mohave,Arizona,04015,23245,743
+6/10/2021,Navajo,Arizona,04017,16470,543
+6/10/2021,Pima,Arizona,04019,116855,2416
+6/10/2021,Pinal,Arizona,04021,53326,905
+6/10/2021,Santa Cruz,Arizona,04023,8061,180
+6/10/2021,Yavapai,Arizona,04025,19396,515
+6/10/2021,Yuma,Arizona,04027,37272,845

@@ -1,0 +1,65 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Adams,Colorado,08001,61313,748
+6/10/2021,Alamosa,Colorado,08003,1706,36
+6/10/2021,Arapahoe,Colorado,08005,63246,808
+6/10/2021,Archuleta,Colorado,08007,1003,2
+6/10/2021,Baca,Colorado,08009,318,4
+6/10/2021,Bent,Colorado,08011,1544,22
+6/10/2021,Boulder,Colorado,08013,23874,259
+6/10/2021,Broomfield,Colorado,08014,4927,77
+6/10/2021,Chaffee,Colorado,08015,1744,25
+6/10/2021,Cheyenne,Colorado,08017,130,6
+6/10/2021,Clear Creek,Colorado,08019,469,3
+6/10/2021,Conejos,Colorado,08021,697,17
+6/10/2021,Costilla,Colorado,08023,249,3
+6/10/2021,Crowley,Colorado,08025,2210,16
+6/10/2021,Custer,Colorado,08027,214,1
+6/10/2021,Delta,Colorado,08029,2824,64
+6/10/2021,Denver,Colorado,08031,73619,829
+6/10/2021,Dolores,Colorado,08033,116,1
+6/10/2021,Douglas,Colorado,08035,30587,263
+6/10/2021,Eagle,Colorado,08037,6334,23
+6/10/2021,Elbert,Colorado,08039,1837,13
+6/10/2021,El Paso,Colorado,08041,71698,851
+6/10/2021,Fremont,Colorado,08043,6493,62
+6/10/2021,Garfield,Colorado,08045,6025,43
+6/10/2021,Gilpin,Colorado,08047,275,3
+6/10/2021,Grand,Colorado,08049,1497,6
+6/10/2021,Gunnison,Colorado,08051,1368,6
+6/10/2021,Hinsdale,Colorado,08053,19,0
+6/10/2021,Huerfano,Colorado,08055,430,17
+6/10/2021,Jackson,Colorado,08057,65,0
+6/10/2021,Jefferson,Colorado,08059,48351,792
+6/10/2021,Kiowa,Colorado,08061,95,3
+6/10/2021,Kit Carson,Colorado,08063,635,11
+6/10/2021,Lake,Colorado,08065,825,0
+6/10/2021,La Plata,Colorado,08067,4060,41
+6/10/2021,Larimer,Colorado,08069,27253,244
+6/10/2021,Las Animas,Colorado,08071,1158,14
+6/10/2021,Lincoln,Colorado,08073,1031,4
+6/10/2021,Logan,Colorado,08075,4027,68
+6/10/2021,Mesa,Colorado,08077,16355,238
+6/10/2021,Mineral,Colorado,08079,93,1
+6/10/2021,Moffat,Colorado,08081,902,22
+6/10/2021,Montezuma,Colorado,08083,2032,25
+6/10/2021,Montrose,Colorado,08085,3652,62
+6/10/2021,Morgan,Colorado,08087,2718,95
+6/10/2021,Otero,Colorado,08089,2068,67
+6/10/2021,Ouray,Colorado,08091,289,3
+6/10/2021,Park,Colorado,08093,825,5
+6/10/2021,Phillips,Colorado,08095,396,13
+6/10/2021,Pitkin,Colorado,08097,2603,4
+6/10/2021,Prowers,Colorado,08099,1270,22
+6/10/2021,Pueblo,Colorado,08101,19264,412
+6/10/2021,Rio Blanco,Colorado,08103,589,5
+6/10/2021,Rio Grande,Colorado,08105,877,16
+6/10/2021,Routt,Colorado,08107,2262,21
+6/10/2021,Saguache,Colorado,08109,419,5
+6/10/2021,San Juan,Colorado,08111,49,0
+6/10/2021,San Miguel,Colorado,08113,909,0
+6/10/2021,Sedgwick,Colorado,08115,236,3
+6/10/2021,Summit,Colorado,08117,3740,8
+6/10/2021,Teller,Colorado,08119,1872,17
+6/10/2021,Washington,Colorado,08121,470,13
+6/10/2021,Weld,Colorado,08123,33004,347
+6/10/2021,Yuma,Colorado,08125,958,17

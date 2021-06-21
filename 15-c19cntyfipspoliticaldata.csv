@@ -1,0 +1,5 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Hawaii,Hawaii,15001,26897,58731,87814,30.63%,66.88%,97.51%,LEFT,201513
+Hawaii,Honolulu,15003,136259,238869,382114,35.66%,62.51%,98.17%,LEFT,974563
+Hawaii,Kauai,15007,22126,47305,71044,31.14%,66.59%,97.73%,LEFT,72293
+Hawaii,Maui,15009,11582,21225,33497,34.58%,63.36%,97.94%,LEFT,167417
