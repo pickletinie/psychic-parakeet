@@ -1,0 +1,22 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Atlantic,New Jersey,34001,31571,688
+6/10/2021,Bergen,New Jersey,34003,104476,2878
+6/10/2021,Burlington,New Jersey,34005,44243,863
+6/10/2021,Camden,New Jersey,34007,55703,1317
+6/10/2021,Cape May,New Jersey,34009,9206,209
+6/10/2021,Cumberland,New Jersey,34011,17148,439
+6/10/2021,Essex,New Jersey,34013,94237,3003
+6/10/2021,Gloucester,New Jersey,34015,30581,643
+6/10/2021,Hudson,New Jersey,34017,88085,2292
+6/10/2021,Hunterdon,New Jersey,34019,10633,176
+6/10/2021,Mercer,New Jersey,34021,34063,954
+6/10/2021,Middlesex,New Jersey,34023,92367,2364
+6/10/2021,Monmouth,New Jersey,34025,75635,1626
+6/10/2021,Morris,New Jersey,34027,50197,1237
+6/10/2021,Ocean,New Jersey,34029,75956,2162
+6/10/2021,Passaic,New Jersey,34031,73045,1928
+6/10/2021,Salem,New Jersey,34033,6090,185
+6/10/2021,Somerset,New Jersey,34035,30070,846
+6/10/2021,Sussex,New Jersey,34037,14024,304
+6/10/2021,Union,New Jersey,34039,71513,1971
+6/10/2021,Warren,New Jersey,34041,9990,237

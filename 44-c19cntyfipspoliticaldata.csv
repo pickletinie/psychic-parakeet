@@ -1,0 +1,6 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Rhode Island,Bristol,44001,9745,18050,28239,34.51%,63.92%,98.43%,LEFT,48479
+Rhode Island,Kent,44003,42001,49113,92574,45.37%,53.05%,98.42%,LEFT,164292
+Rhode Island,Newport,44005,15722,29486,45901,34.25%,64.24%,98.49%,LEFT,82082
+Rhode Island,Providence,44007,102551,165012,271326,37.80%,60.82%,98.61%,LEFT,638931
+Rhode Island,Washington,44009,29818,44549,75587,39.45%,58.94%,98.39%,LEFT,125577

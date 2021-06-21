@@ -1,0 +1,11 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Belknap,New Hampshire,33001,4140,100
+6/10/2021,Carroll,New Hampshire,33003,2472,12
+6/10/2021,Cheshire,New Hampshire,33005,3886,35
+6/10/2021,Coos,New Hampshire,33007,2427,42
+6/10/2021,Grafton,New Hampshire,33009,4069,26
+6/10/2021,Hillsborough,New Hampshire,33011,36271,646
+6/10/2021,Merrimack,New Hampshire,33013,9645,116
+6/10/2021,Rockingham,New Hampshire,33015,24300,263
+6/10/2021,Strafford,New Hampshire,33017,9973,95
+6/10/2021,Sullivan,New Hampshire,33019,1857,25

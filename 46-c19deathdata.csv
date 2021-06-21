@@ -1,0 +1,67 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Aurora,South Dakota,46003,475,15
+6/10/2021,Beadle,South Dakota,46005,2966,40
+6/10/2021,Bennett,South Dakota,46007,392,9
+6/10/2021,Bon Homme,South Dakota,46009,1554,28
+6/10/2021,Brookings,South Dakota,46011,4234,37
+6/10/2021,Brown,South Dakota,46013,5635,95
+6/10/2021,Brule,South Dakota,46015,718,10
+6/10/2021,Buffalo,South Dakota,46017,426,13
+6/10/2021,Butte,South Dakota,46019,1084,20
+6/10/2021,Campbell,South Dakota,46021,131,4
+6/10/2021,Charles Mix,South Dakota,46023,1383,22
+6/10/2021,Clark,South Dakota,46025,463,5
+6/10/2021,Clay,South Dakota,46027,1933,15
+6/10/2021,Codington,South Dakota,46029,4650,83
+6/10/2021,Corson,South Dakota,46031,483,12
+6/10/2021,Custer,South Dakota,46033,876,13
+6/10/2021,Davison,South Dakota,46035,3246,67
+6/10/2021,Day,South Dakota,46037,709,29
+6/10/2021,Deuel,South Dakota,46039,531,9
+6/10/2021,Dewey,South Dakota,46041,1475,29
+6/10/2021,Douglas,South Dakota,46043,456,9
+6/10/2021,Edmunds,South Dakota,46045,512,14
+6/10/2021,Fall River,South Dakota,46047,604,16
+6/10/2021,Faulk,South Dakota,46049,373,13
+6/10/2021,Grant,South Dakota,46051,1057,42
+6/10/2021,Gregory,South Dakota,46053,586,30
+6/10/2021,Haakon,South Dakota,46055,266,10
+6/10/2021,Hamlin,South Dakota,46057,800,39
+6/10/2021,Hand,South Dakota,46059,363,6
+6/10/2021,Hanson,South Dakota,46061,390,4
+6/10/2021,Harding,South Dakota,46063,97,1
+6/10/2021,Hughes,South Dakota,46065,2523,41
+6/10/2021,Hutchinson,South Dakota,46067,918,28
+6/10/2021,Hyde,South Dakota,46069,141,1
+6/10/2021,Jackson,South Dakota,46071,291,14
+6/10/2021,Jerauld,South Dakota,46073,281,16
+6/10/2021,Jones,South Dakota,46075,95,0
+6/10/2021,Kingsbury,South Dakota,46077,819,18
+6/10/2021,Lake,South Dakota,46079,1388,20
+6/10/2021,Lawrence,South Dakota,46081,3008,48
+6/10/2021,Lincoln,South Dakota,46083,8717,78
+6/10/2021,Lyman,South Dakota,46085,659,11
+6/10/2021,McCook,South Dakota,46087,811,25
+6/10/2021,McPherson,South Dakota,46089,247,4
+6/10/2021,Marshall,South Dakota,46091,375,6
+6/10/2021,Meade,South Dakota,46093,2791,31
+6/10/2021,Mellette,South Dakota,46095,260,2
+6/10/2021,Miner,South Dakota,46097,307,10
+6/10/2021,Minnehaha,South Dakota,46099,31735,363
+6/10/2021,Moody,South Dakota,46101,666,20
+6/10/2021,Oglala Lakota,South Dakota,46102,2119,49
+6/10/2021,Pennington,South Dakota,46103,13872,201
+6/10/2021,Perkins,South Dakota,46105,359,14
+6/10/2021,Potter,South Dakota,46107,391,4
+6/10/2021,Roberts,South Dakota,46109,1378,41
+6/10/2021,Sanborn,South Dakota,46111,345,3
+6/10/2021,Spink,South Dakota,46115,846,26
+6/10/2021,Stanley,South Dakota,46117,354,2
+6/10/2021,Sully,South Dakota,46119,145,3
+6/10/2021,Todd,South Dakota,46121,1235,33
+6/10/2021,Tripp,South Dakota,46123,755,17
+6/10/2021,Turner,South Dakota,46125,1181,57
+6/10/2021,Union,South Dakota,46127,2227,43
+6/10/2021,Walworth,South Dakota,46129,772,15
+6/10/2021,Yankton,South Dakota,46135,3112,34
+6/10/2021,Ziebach,South Dakota,46137,344,9

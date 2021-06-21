@@ -1,0 +1,34 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Bernalillo,New Mexico,35001,58698,954
+6/10/2021,Catron,New Mexico,35003,95,5
+6/10/2021,Chaves,New Mexico,35005,9270,169
+6/10/2021,Cibola,New Mexico,35006,3542,125
+6/10/2021,Colfax,New Mexico,35007,946,45
+6/10/2021,Curry,New Mexico,35009,5263,84
+6/10/2021,De Baca,New Mexico,35011,172,2
+6/10/2021,Doña Ana,New Mexico,35013,25208,488
+6/10/2021,Eddy,New Mexico,35015,6908,140
+6/10/2021,Grant,New Mexico,35017,1738,41
+6/10/2021,Guadalupe,New Mexico,35019,702,11
+6/10/2021,Harding,New Mexico,35021,12,1
+6/10/2021,Hidalgo,New Mexico,35023,365,9
+6/10/2021,Lea,New Mexico,35025,9135,196
+6/10/2021,Lincoln,New Mexico,35027,1760,18
+6/10/2021,Los Alamos,New Mexico,35028,532,6
+6/10/2021,Luna,New Mexico,35029,3361,92
+6/10/2021,McKinley,New Mexico,35031,12354,478
+6/10/2021,Mora,New Mexico,35033,173,7
+6/10/2021,Otero,New Mexico,35035,5199,77
+6/10/2021,Quay,New Mexico,35037,520,10
+6/10/2021,Rio Arriba,New Mexico,35039,3719,77
+6/10/2021,Roosevelt,New Mexico,35041,2017,59
+6/10/2021,Sandoval,New Mexico,35043,12169,241
+6/10/2021,San Juan,New Mexico,35045,15560,491
+6/10/2021,San Miguel,New Mexico,35047,1384,17
+6/10/2021,Santa Fe,New Mexico,35049,10730,149
+6/10/2021,Sierra,New Mexico,35051,781,52
+6/10/2021,Socorro,New Mexico,35053,1323,60
+6/10/2021,Taos,New Mexico,35055,1692,53
+6/10/2021,Torrance,New Mexico,35057,1023,13
+6/10/2021,Union,New Mexico,35059,425,10
+6/10/2021,Valencia,New Mexico,35061,7143,117

@@ -1,0 +1,160 @@
+state,county,fips,POP tot,land area (sq/mi),pop/sqmi
+North Carolina,Alamance,37001,169509,435,389.7
+North Carolina,Alexander,37003,37497,263,142.6
+North Carolina,Alleghany,37005,11137,236,47.2
+North Carolina,Anson,37007,24446,537,45.5
+North Carolina,Ashe,37009,27203,427,63.7
+North Carolina,Avery,37011,17557,247,71.1
+North Carolina,Beaufort,37013,46994,959,49
+North Carolina,Bertie,37015,18947,741,25.6
+North Carolina,Bladen,37017,32722,887,36.9
+North Carolina,Brunswick,37019,142820,860,166.1
+North Carolina,Buncombe,37021,261191,660,395.7
+North Carolina,Burke,37023,90485,515,175.7
+North Carolina,Cabarrus,37025,216453,365,593
+North Carolina,Caldwell,37027,82178,474,173.4
+North Carolina,Camden,37029,10867,306,35.5
+North Carolina,Carteret,37031,69473,1341,51.8
+North Carolina,Caswell,37033,22604,428,52.8
+North Carolina,Catawba,37035,159551,414,385.4
+North Carolina,Chatham,37037,74470,709,105
+North Carolina,Cherokee,37039,28612,497,57.6
+North Carolina,Chowan,37041,13943,233,59.8
+North Carolina,Clay,37043,11231,221,50.8
+North Carolina,Cleveland,37045,97947,469,208.8
+North Carolina,Columbus,37047,55508,954,58.2
+North Carolina,Craven,37049,102139,774,132
+North Carolina,Cumberland,37051,335509,658,509.9
+North Carolina,Currituck,37053,27763,526,52.8
+North Carolina,Dare,37055,37009,1562,23.7
+North Carolina,Davidson,37057,167609,567,295.6
+North Carolina,Davie,37059,42846,267,160.5
+North Carolina,Duplin,37061,58741,819,71.7
+North Carolina,Durham,37063,321488,298,1078.8
+North Carolina,Edgecombe,37065,51472,507,101.5
+North Carolina,Forsyth,37067,382295,413,925.7
+North Carolina,Franklin,37069,69685,495,140.8
+North Carolina,Gaston,37071,224529,364,616.8
+North Carolina,Gates,37073,11562,346,33.4
+North Carolina,Graham,37075,8441,302,28
+North Carolina,Granville,37077,60443,537,112.6
+North Carolina,Greene,37079,21069,266,79.2
+North Carolina,Guilford,37081,537174,658,816.4
+North Carolina,Halifax,37083,50010,731,68.4
+North Carolina,Harnett,37085,135976,601,226.2
+North Carolina,Haywood,37087,62317,555,112.3
+North Carolina,Henderson,37089,117417,375,313.1
+North Carolina,Hertford,37091,23677,360,65.8
+North Carolina,Hoke,37093,55234,392,140.9
+North Carolina,Hyde,37095,4937,1424,3.5
+North Carolina,Iredell,37097,181806,597,304.5
+North Carolina,Jackson,37099,43938,494,88.9
+North Carolina,Johnston,37101,209339,796,263
+North Carolina,Jones,37103,9419,473,19.9
+North Carolina,Lee,37105,61779,259,238.5
+North Carolina,Lenoir,37107,55949,402,139.2
+North Carolina,Lincoln,37109,86111,307,280.5
+North Carolina,McDowell,37111,45756,446,102.6
+North Carolina,Macon,37113,35858,519,69.1
+North Carolina,Madison,37115,21755,452,48.1
+North Carolina,Martin,37117,22440,461,48.7
+North Carolina,Mecklenburg,37119,1110356,546,2033.6
+North Carolina,Mitchell,37121,14964,222,67.4
+North Carolina,Montgomery,37123,27173,502,54.1
+North Carolina,Moore,37125,100880,706,142.9
+North Carolina,Nash,37127,94298,543,173.7
+North Carolina,New Hanover,37129,234473,328,714.9
+North Carolina,Northampton,37131,19483,551,35.4
+North Carolina,Onslow,37133,197938,909,217.8
+North Carolina,Orange,37135,148476,401,370.3
+North Carolina,Pamlico,37137,12726,566,22.5
+North Carolina,Pasquotank,37139,39824,289,137.8
+North Carolina,Pender,37141,63060,933,67.6
+North Carolina,Perquimans,37143,13463,329,40.9
+North Carolina,Person,37145,39490,404,97.7
+North Carolina,Pitt,37147,180742,655,275.9
+North Carolina,Polk,37149,20724,239,86.7
+North Carolina,Randolph,37151,143667,790,181.9
+North Carolina,Richmond,37153,44829,480,93.4
+North Carolina,Robeson,37155,130625,951,137.4
+North Carolina,Rockingham,37157,91010,572,159.1
+North Carolina,Rowan,37159,142088,524,271.2
+North Carolina,Rutherford,37161,67029,566,118.4
+North Carolina,Sampson,37163,63531,947,67.1
+North Carolina,Scotland,37165,34823,321,108.5
+North Carolina,Stanly,37167,62806,404,155.5
+North Carolina,Stokes,37169,45591,456,100
+North Carolina,Surry,37171,71783,538,133.4
+North Carolina,Swain,37173,14271,541,26.4
+North Carolina,Transylvania,37175,34385,381,90.2
+North Carolina,Tyrrell,37177,4016,600,6.7
+North Carolina,Union,37179,239859,640,374.8
+North Carolina,Vance,37181,44535,270,164.9
+North Carolina,Wake,37183,1111761,857,1297.3
+North Carolina,Warren,37185,19731,444,44.4
+North Carolina,Washington,37187,11580,424,27.3
+North Carolina,Watauga,37189,56177,313,179.5
+North Carolina,Wayne,37191,123131,557,221.1
+North Carolina,Wilkes,37193,68412,760,90
+North Carolina,Wilson,37195,81801,374,218.7
+North Carolina,Yadkin,37197,37667,337,111.8
+North Carolina,Yancey,37199,18069,313,57.7
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
