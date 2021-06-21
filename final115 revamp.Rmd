@@ -1,0 +1,307 @@
+---
+Name: "Sasha Dalton-Colley"
+title: "An in-depth look at Covid-19; A rebuttal"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In a paper that was published in late 2020, as the height of the new novel SARs virus was only starting, a paper was published called, “How Political is the Spread of COVID-19 in the United States? An Analysis using Transportation and Weather Data.” it was suggested that covid-19 was being spread due to political affiliation. in the end, they ultimately decided that it was not the case for the spread, the format in which that analysis was completed seemed to be short-sided, and many corners were cut in the initial planning process for the analysis that was presented.
+
+As a student new to this field, I was all too eager to take on the challenge of looking into the information that, in my opinion at least, was overlooked. Not to mention that with my medical background this analysis really had struck a chord with me. As I work in a place where I am face-to-face with this infection on a daily basis, and I get told people's opinions about this virus has unsolicited advice just as often, I feel that with that experience I may have a slightly different outlook on this issue than the people who did the original no analysis of that I had read.
+
+As I am well aware that I am doing this analysis paper for school, I know that I probably should write it with a more formal tone. But that would be writing my paper to only accommodate for one potential audience. As I feel that this issue deserves more attention than that, I'm going to be choosing to write it with a more informal tone. This may end up being to my detriment in the end, I feel that if more people can read this and not have it be so dry that their eyes glaze over a few paragraphs in, well then- that's a win.
+
+So, before I start off on explaining my method and process, let's first take a look at the other article that got me thinking about this analysis to begin with. The article had taken our 50 states and broken them up into five clusters trying to keep populations similar to each other as well as maintaining the split along the party line. As this article was written in September 2020 the new polling for presidential election of 2020 had not transpired yet. The clusters that they chose to use was Florida to New York, Georgia, Indiana, Tennessee, Michigan, North Carolina, Ohio, Pennsylvania, to Illinois, Massachusetts, New Jersey, Virginia, and Washington in cluster two. Cluster three comprised of Texas and California. Cluster four was West Virginia and South Carolina to Connecticut, District of Columbia, Delaware, Hawaii, Maryland, Maine, New Hampshire, Rhode Island, and Vermont. And finally for cluster five we had Alaska, Alabama, Arizona, Arkansas, Iowa, Idaho, Kansas, Kentucky, Louisiana, Missouri, Mississippi, Montana, North Dakota,  Nebraska, South Dakota, Utah, Wisconsin, and Wyoming, compared to Colorado, Minnesota, New Mexico, Nevada, and Oregon.
+
+And where I understand that clustering makes it easier to do an analysis on data of this capacity it also overlooks the fact that a single state is not a single color of red or blue. An easy to see example of this is looking at the state of Illinois. Chicago is very much a blue city because his population there is larger than the rest of the state, the electoral college boats for that state go to the Democrats. However if you were to look at the county data, you would see that the rest of the state is red, and as Republican as they wish they could vote. So taking a state like that and assuming that everyone in that state is going to abide by the same mandates there set out by the government to stay in and quarantine, the reality is that we have to look at the data a lot deeper than by chunking it up into five sections based on red or blue. 
+
+The analysis in question also used temperature logs by states to show correlations of infection rates. To be exact a were looking at May June and July for the temperature rates. As I would hope would be common knowledge by most people at this point in their lives, we know that the further south you go the hotter it is. Which means on their chloropleth map they had generated into their analysis shows it being extremely warm from California over to North Carolina. They then used a Pearson correlation coefficients to look at the two sets of data and assume that the higher rates in those warm states were due to the warm weather. And that was all they did for the analysis. They didn't choose to look deeper into the data to see if there was any other correlation and/or causation for the higher rates in those warm places.
+
+So let's take a look at the data and see if we can surmise a different reason other than the weather for Covid rates to be so high in some places and not as high in others. We will start with just the Covid infection and death rates for the states:
+
+I would also like to point out that for this analysis, I will be including the US Virgin Islands and Puerto Rico. I chose not to include quantum as because it is so far away for easy travel and that I could not find all of the matching data that I used for the rest of this analysis, that it would not be viable information to include. I chose to include the US Virgin Islands and Puerto Rico as they are part of the United States, even if they are not states. In the United States will not give the land back to the people nor give them statehood, which means that the people who reside on that land should be the responsibility of the United States. So when we're looking at infection rates for the United States it seems immoral to not include them.Personally, if I had an option not to include anywhere for this analysis it would probably either be Florida because they're crazy, or New Jersey because that show was awful.
+
+Thanks to the New York Times and their GitHub, I was able to render more accurate data as I was finishing up this analysis. In looking at all those numbers it seems like a mess. So let's look at the state cases, and then state deaths:
+
+```{r}
+c19 <- read.csv("-c19statedeathdata.csv")
+
+# Setup
+options(scipen=999)
+library(ggplot2)
+data("c19", package = "ggplot2")
+theme_set(theme_bw())
+
+# Add plot components --------------------------------
+gg <- ggplot(c19, aes(x=cases, y=deaths)) + 
+  geom_point(aes(col=state, size=population)) + 
+  geom_smooth(method="loess", se=F) + xlim(c(0, 500000)) + ylim(c(0, 5000)) + 
+  labs(title="Cases and Deaths", y="Deaths", x="Cases", caption="Source: nyt:github c19")
+
+# Call plot ------------------------------------------
+plot(gg)
+
+
+
+```
+
+
+As we can see from this graph there are a few states that have quite a few more cases and deaths than others. Which leads us to the ultimate question, what causes those states to have more Covid cases and more deaths than the other states. There has been an assumption placed on the fact that the spread of Covid has been more political than not. But there have been many speculations as to why despite risks has spread so rapidly through not only United States, but through the world.
+
+The data that I have collected for this particular analysis is quite extensive. Therefore I will only be examining a portion of it for this project. I will continue on with my analysis throughout the upcoming hopefully just months, to see if I can reach a conclusion that can be agreed upon, if for no other reason than is proven through the analysis which was conducted.
+
+
+```{r}
+df <- read.csv("data.csv")
+# Load data
+data("df")
+my_data <- df[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36)]
+# print the first 6 rows
+head(my_data, 6)
+
+```
+
+
+I was having an issue with my data and showing either an exceptionally high correlation or extremely low correlation when looking at a correlation plot in R. 
+
+I then realized that the correlation plot was looking specifically at numbers, and nothing else. Which, thinking about it makes sense as a correlation plot only can look at the data that it is given.
+
+So I reran the numbers that I had changed into percentages and put them back into numerical digits. I then put that data back into a master sheet so that way I would have all the data quickly at hand. When I run a correlation plot against that data it gives me pretty much the same results, except for now pretty much everything is highly correlated. This also is not going to be very helpful as looking at the data, some of the values that it says are not correlated, in my opinion are highly correlated. This means the data will need to be gone through more thoroughly and more in depth to be able to reach an accurate conclusion.
+
+```{r}
+corr_mat <- cor(df)
+
+library(corrplot)
+corrplot(corr_mat,title = "Overall Look at the Data") 
+
+```
+
+As the names for all of my data fields ended up being a little large I had to abbreviate most of them for which I kept on a separate sheet and I will include at the bottom of this analysis. However for now if you look at the columns listed LA, and PSM you will notice that there is a either very faint none or very minimal negative correlation. These two fields indicate the land area for the given state as well as the population per square mile. As some states have quite a bit larger areas and metropolitan areas tend to have quite a few more people than rule areas, I believe that these two fields actually have quite a bit more to do with the data at hand and is shown by the correlation plot.
+
+If you happen to live in an area that has a average population of two people per square mile, is far less likely for you to contract virus than if you were living in an area that has a population of one person per every 250 miles as we see in Yucatat County, Alaska- versus living in an area such as New York County, New York which boasts a staggering population of 48,299 people per square mile. Which, is that particular nuance is not able to be seen by looking at just the state data, I will go into that particular portion of my analysis at a later date and time.
+
+
+```{r}
+library(ggplot2)        # visualizing data
+library(gridExtra)      # combining multiple plots
+library(corrgram)       # visualizing data       
+library(corrplot)       # visualizing data       
+library(Hmisc)          # produces correlation matrices with p-values
+library(ppcor)          # assesses partial correlations
+library(gridExtra)
+library(grid)
+```
+
+
+
+```{r}
+qplot(x = pt, y = ccd, data = df) +
+        geom_smooth(method = "lm", se = FALSE) +
+        ggtitle("Population and Confirmed Covid Cases")
+```
+
+As we can see from this linear regression model the confirmed Covid deaths are directly correlated with the total population of the states. This is not really surprising as states with higher populations are going to end up with more Covid cases and ultimately Covid deaths.
+
+```{r}
+library(gridExtra)
+library(grid)
+
+p1 <- qplot(x = cf, y = ccc, data = df)
+p2 <- qplot(x = pip, y = ccc, data = df)
+p3 <- qplot(x = nhi, y = ccc, data = df)
+p4 <- qplot(x = hse, y = ccc, data = df)
+
+grid.arrange(p1, p2, p3, p4, ncol = 2, 
+             top = textGrob("Confirmed Covid Cases"))
+```
+
+Another linear regression model that I had used on this data was taking a look at the confirmed cases, and looking at any correlation between the correctional facilities in each state, as seen in the top left graph, the confirmed covert cases in any relation to the total population in poverty as seen in the top right graph, confirmed covert cases with any relation to the population with no health insurance, which is seen in the bottom left graph, and finally the total of it cases in regards to the population that has only high school education as seen in the bottom right graph. As expected, once again all this data shows correlation. I feel that the ultimate question behind the nuances of this data set though, is if this is correlation or if there is any possible causation. 
+
+I opted to look at a few regression models just looking at the confirmed cases. I broke up the remaining variables into groups as evenly as possible.
+
+ In this model we have PW, PB, PN and PA. These codes are looking at are confirmed Covid cases against our population of Anglo-Saxon descent, R population of African descent , are population of either Native American, native Hawaiian, Pacific Islander or other descent, and are population of Asian descent.
+
+```{r}
+pairs(df[, c(33, 3:6)])
+```
+
+As we can see him this matrix the commonality of each dissent of the population does not show a high correlation with the Covid cases. However this will be looked at in a lot more detail when I go through each state individually, and then compare them to the Covid cases. I expect to find the population origin of familial dissent to be only strongly correlated with the region that is the highest in each given area. For example, I expect to find a higher Hawaiian population in Hawaii that has contracted the Covid virus, 
+then I expect to find in a location such as South Dakota. However because this is going only by state, and overall, I do not find the results from any of these graphs to be strongly to a link of one result or another. 
+
+
+```{r}
+pairs(df[, c(33, 7:10)])
+```
+
+In the above matrix we have again the confirmed Covid cases, and we are looking at codes PM, PH, PV, and  PPH. This is looking at our population of mixed descent, our population of Hispanic or Latino descent overall population of veterans, and lastly the average persons per household. 
+
+```{r}
+pairs(df[, c(33, 11:14)])
+```
+
+This particular matrix model has a much more defined positive correlation for all the values listed than the one above it does. However I do believe that the PPH which is the person per household on average does have a strong correlation to this virus in the spread of it, this will also have to be looked at at a later time. This matrix shows codes HSE, BDE, PD and NHI. These codes are looking at the population with a high school education, our population with a bachelors degree or higher education, our population that has a disability that is within the working age force, and lastly our population without health insurance. All once again looking if there's any correlation with the overall confirmed Covid cases. 
+
+```{r}
+pairs(df[, c(33, 15:18)])
+```
+
+This matrix shows us are confirmed Covid cases against the codes for CLF, PIP, PT, and LA. This is our population age 16 and up in our civilian labor force, or total population in poverty, the population total, and the land area per square mile of states. Once again I know that this correlation plot and regressive model shows that there is no correlation between our land area and are confirmed Covid cases, but again I feel that the lack of correlation is more telling of the fact that there is a correlation. 
+
+```{r}
+pairs(df[, c(33,19,20,21,24,27)])
+```
+
+This matrix, we have our total Covid cases against codes PSM, VAP, CF, A019, and A2064. This again is looking at are confirmed Covid cases against our population per square mile, our voting age population, our total correctional facilities, our population between the age of 0 and 19, and our population between the age 20 and 64. 
+
+```{r}
+pairs(df[, c(33,30,34,35,36)])
+```
+
+And finally on this plot, for the rest of the major contributing variables, we have confirmed Covid cases against code A65, CCD, TB and and NV. These codes are representative of the variables for our age population of 65 and up are confirmed Covid deaths, our total votes counted, and are persons who are of legal age to vote and did not choose to participate in that process nor are registered to vote.
+
+```{r}
+pairs(df[, c(11,12,16,17,14)])
+```
+
+Here is the beginning of some of the correlation matrices I want to look at in more depth later. This is looking at the population that has a high school education, the population with a bachelors degree or higher as well as our population in poverty, the overall population, as well as our population without health insurance. As we can see from the model, except with a a few outliers, the data is pretty strongly correlated. And this is where the data starts to get quite interesting. Goal for our country is to have our persons in poverty percentage be under 10%, 
+
+Then only 11 states have achieved this. This would be Nebraska, Virginia, Washington, Massachusetts, Colorado, Hawaii, New Jersey, Maryland, Minnesota, Utah, and New Hampshire. If we want to look at the other end of the spectrum, our top 10 states for the persons in poverty is going to be Oklahoma, with a staggering percentage of 15.2% of their population in poverty. Alabama with 15.5% of their population in poverty, West Virginia with 16% of their population in poverty Arkansas 16.2% Kentucky 16.3% New Mexico 18.2% Louisiana at 19% Mississippi at 19.6% of the population in poverty and our top two winners, if we call them that is Puerto Rico at 43.5% and Virgin Island's with 44.23% of the population in poverty. 
+
+That information alone is quite staggering. However because there are many states that have higher populations those are not necessarily the states that have the highest amount of people in poverty. For that we would have to look at Pennsylvania, Ohio, Arkansas, Illinois, New York, North Carolina, Georgia, Florida, California, and finally Texas. Interestingly enough all the states that are listed with the highest poverty as well as the states that contain the highest amount of people in poverty are all listed in the same data frame that includes the highest amount of correctional facilities in the United States, as well as they are also included on the original analysis paper that I had read. Their analysis stated that the spread of Covid was due to the heat, and the fact that the people were traveling during the summertime. 
+
+However looking at Texas with their 551 correctional facilities and their 3.95 million people in poverty, not to mention there are 9.5 million adults that are not eligible to vote in their state, I would have to argue that there is another reason that Covid spread so much in Texas not to mention other states due to something much more than it being hot. 
+
+
+```{r}
+pairs(df[, c(34,16,21,4,36)])
+```
+
+As there is no denying the racial disparity in our country, here I was looking at the confirmed Covid deaths, our population in poverty are correctional facilities, are persons of African descent and our population people who are not eligible to vote, our elected to not register.
+
+And where we see a high correlation with these factors, as is shown in our correlation plots at the beginning of this paper, all of this data seems to be highly correlated save the land area in population per square mile- however again, I feel that the lack of correlation of that information shows a higher correlation than not.
+
+Here is the data from the top 10 states with the lowest correctional facilities.
+
+
+```{r}
+low <- read.csv("datalow.csv")
+print(low)
+```
+
+This is the information from the states with the highest amount of correctional facilities.
+
+Incidentally enough are states that have the top 10 correctional facilities: Texas, Georgia, Florida, California, North Carolina, New York, Ohio, Michigan, Virginia, and Illinois. Also show up on our states with the highest amount of Covid cases and the highest amount of Covid deaths in the country. States are California, New York, Texas, Florida, Pennsylvania (which is state number 11 for the highest amount of correctional facilities), New Jersey, Illinois, Michigan, Georgia, and Ohio.
+
+```{r}
+high <- read.csv("datahigh.csv")
+print(high)
+```
+
+```{r}
+corr_mat <- cor(low)
+
+library(corrplot)
+corrplot(corr_mat,title = "Top 10 States with the Lowest Correctional Facilities") 
+```
+
+
+```{r}
+corr_mat <- cor(high)
+
+library(corrplot)
+corrplot(corr_mat,title = "Top 10 States with the Highest Correctional Facilities") 
+```
+
+Although hard to determine, due to the high correlation of all my values together, you can see with the top 10 states with the highest correctional facilities you can see that there is a higher number of individuals who do not have health insurance. Which on the graph that shows the top 10 states with the lowest number of correctional facilities they have more people who are insured.
+
+```{r}
+
+ggplot(data = df, aes(x = sc)) +
+  geom_density(fill = 'cyan', color = 'cyan') +
+  labs(title = 'Correctional Facilities') +
+  theme(text = element_text(family = '', color = "#444444")
+        ,panel.background = element_rect(fill = '#444B5A')
+        ,panel.grid.minor = element_line(color = '#4d5566')
+        ,panel.grid.major = element_line(color = '#586174')
+        ,plot.title = element_text(size = 24)
+        ,axis.title = element_text(size = 18, color = '#555555')
+        ,axis.title.y = element_text(vjust = .5, angle = 0)
+        ,axis.title.x = element_text(hjust = .5)
+  )
+
+```
+
+Here is a kernel density plots where I tried to show where the states with the highest amount of correctional facilities are compared to other locations. As we can see from this density graph the states that generally have the highest amount of correctional facilities tend to reside between mistake codes 20 and 40. This is congruent with the information that is shown above, however due to the fact that the facilities vary greatly from state to state, this plot does not show the nuances of that information. Therefore I will not be using a density plot to show this information going forward, as the plot does not show the data accurately. At least not for my needs.
+
+```{r}
+pca <- prcomp(df)
+summary(pca)
+```
+
+
+```{r}
+library(devtools)
+library(plyr)
+library(ggbiplot)
+
+df.pca <- prcomp(df, center = TRUE,scale. = TRUE)
+summary(df.pca)
+```
+
+```{r}
+str(df.pca)
+```
+
+Principal component analysis is generally used for data sets that are large and wide, and in this overall plot you can see that a lot of my lines lay along zero. I think that I will definitely use this type of plot in my next analysis when I am going through each and every state county/FIPS code, an in-depth getting more in-depth information from this analysis. For now, because the data is so large and varies so much, range of creates and around each group, which would in-depth being each state would in-depth even messier looking graph.
+
+```{r}
+ggbiplot(df.pca)
+```
+
+So for now we will leave this graph as is, and move on.
+
+As we can see, from the amount of data and information that I have even in this analysis, it is far from being over. What will be coming in the future is a more in-depth analysis of each of the factors in each of the counties that is represented. I have attempted on multiple occasions to obtain demographic information from the prisons and jails of each of the states, however, the data they have provided to me seems inaccurate. For example I had one prison in Texas advise me of a listed prison capacity of over 2500 with a current inmate population of only 97. As a quick Google search would identify that America's prisons are over packed and at capacity or above, I find it highly unlikely that a prison would have a population of sub 100. Another issue that will have to be addressed in one way or another is the ICE population of prisoners. The United States is supposed to have a record of all prisoners in this population, and there are some registries of the population. But as the New York Times as well as many other new sites has made us aware of the issue on the border where parents and children were separated and kept in sight of empty warehouses the idea that we will have an accurate representation of the population seems unlikely.  
+
+What I will eventually show in my in-depth analysis of the data that I have collected scrubbed and looked over for general correlations and research for causations is that the widespread cases of Covid and the eminent deaths caused all starts from a different type of systemic issue. 
+
+This issue, cannot be summed up quickly or easily although there have been many papers and analysis that tried. The spread of Covid, had nothing to do it the temperature in the given cities or states, it had nothing to do with the political leaning of the population of people in the states. Populations in poverty, populations without adequate education, populations in correctional facilities, and the populations that come out of those facilities, the persons who were not eligible to vote – not always because one chooses not to possibly and more likely, due to the fact that their voting rights were stripped,  populations that are living in areas  with thousands of people per square mile, and the population of workers all contribute to the spread of this disease.
+
+As it is a standard practice before the courts nationwide to use a recidivism scale, people who are not of Anglo-Saxon dissent generally end up with a higher rate and end up in jail, or prison- sometimes before even their trial. As jails are overpopulated, social distancing is not an option. And this becomes a petri dish for the disease to spread. As one of the scales that is looked at when assessing someone's flight risk or the fact that they need to be in jail is generally looked at there is any family history of family being in jail.
+
+As the article about how spread of Covid was political or not using the transportation and weather data analysis first got me thinking about how each county was different and that although one state may be read the population inside of it is not always 100% that way. Where you can live in an extremely liberal area and have a neighbor next door who does not believe in wearing masks and believes that Covid is a government conspiracy, another article that was published by Pro-Publica in 2016, got me thinking about another potential reason for the spread of Covid. 
+
+This article entitled "Machine Bias" goes into depth about the process used to keep inmates in jail. Under speaking to multiple social workers, as well as people in the court system, it was apparent that this is actually the case for many people. If you have a family member who was in jail you are than at higher risk for ending up in jail yourself. If you end up with a felony for one reason or another you are no longer allowed to vote. If you go to jail or are convicted of a crime, then you must declare it on your job application and your housing applications. This label of an ex-convict or someone with a criminal record in some way or another will then follow you. It makes it very difficult to obtain a higher education, or a higher paying job. You're not able to obtain higher paying job there is a good chance that you will end up in an impoverished state physically or figuratively.
+
+When Covid first came to United States, and almost every job shutdown or insisted that their employees start working from home, this was only a luxury afforded to people who had a job that allowed it. If the only job you're able to find is a fast food worker or a customer service job that works face-to-face with the general public because of either lack of education or due to the fact that you have a criminal record, then staying home and keeping yourself quarantined in safe is no longer a possibility.
+
+My later analysis will show that the populations that have higher members of people who have been in the prison system in one way or another or have less than college education, are the ones that were infected far more than anyone else. 
+
+The death rates did affect the elderly and disabled populations more yes, however, there infection was driven from the fact that members of the public that they interacted with were not able to stay home because they needed to work to feed either themselves or their family.
+
+States and areas that had higher education and less correctional facilities overall ended up with a smaller percentage of their population were either infected with Covid or died from the virus. 
+
+That was only one leg of the chair that causes virus to spread. Another leg came from the overall general misinformation of our population. The fact that college is so expensive and mostly unobtainable for many people keeps our population in a predicament that leads them to believe that what is written on Facebook is truth. They have not been taught how to research and to think critically when it comes to the information they are given and bad word-of-mouth spreads faster than any of information from the CDC ever could.
+
+This gives us our second leg. However trying to determine if it is the lack of education that causes the desire for misinformation, is another analysis that would need to be done at a different point.
+
+The third leg, I touched on briefly before. The amount of poverty that we have the United States. As wage disparity is pretty well-known at this point, not to mention the fact that most of the will this not among people, the poverty line for the United States although it looks as if it is somewhat reasonable at on average 13%, is not exactly accurate. People that are earmarked for being poverty generally are not the only ones. As the federal minimum wage is still 7.25 an hour, and state I live in it is 13.69, that wage may seem like a fair amount. Unfortunately the average studio apartment is about 1400, at a minimum wage job if no taxes were taken out of your check, it was still take 102.25 hours just to pay your rent. My husband, has a bachelors degree the average pay for his job is 15-20 an hour. So even with a higher education, many people still end up in what should be considered poverty however due to the federal average it is not. 
+
+Another portion of this Lake also leads to the fact that if childcare is needed, it is extremely expensive. Therefore if you are a single parent it makes it your and possible to be able to afford a place to live, afford food, electric, and childcare. To be able to have state assistance to meet any of these needs you have to make very little. It is good that these services are available, however the threshold to be able to get these services is very small which means that not everyone who desperately needs the services is able to get them.
+
+The fourth leg to our pandemic chair goes right with our other three is expected. This is the amount of people per each state who do not have healthcare. And I'm going to expand the umbrella of healthcare a little bit wider, as many Americans may have healthcare but have extremely high deductibles which discourage them from going to the doctor, or do not have sick leave with her place of employment for one reason or another. 
+
+I don't think I know a single person who can say that they have never in their life gone to work when they knew they were sick. Personally, I have been sent home with an active case of the flu before - and so have many of my coworkers. And not the flu as most people think where you don't feel good and your stomach hurts and you're throwing up, but an active case of influenza. This may be a good time to tell you that I work in a doctor's office next to the hospital. I have even had the doctors that I work with come into work actively sick. 
+
+The major hospital that I work with has locations in 47 states and 113 countries across the world. This hospital offers all of their employees one of two packages of insurance. You can elect to pay 300-600 per paycheck for a very low deductible and many of your costs met or you can choose the second option which is only hundred dollars out of your check but comes with a 3000-6000 deductible before any of your costs are covered.
+
+Many Americans who were forced – or at least how they believe is forced – also opted to have these low cost upfront high deductible plans because that is all that they can afford. With insurance plan like that even though you can say you have insurance it might as well be is if you don't. Because if all your money goes towards basic living expenses, then how are you going to afford a $300 Doctor visit if you're sick? The problem is, is that you can't.
+
+And I know this analysis was long, as well as my conclusion was also verbose. But this is an issue that is not simple and not easy to rectify. However, if we are ever going to be able to make sure our country can withstand another pandemic such as the one we faced in 2020, then we need to start fixing these issues from the ground up. 
+
+ So, thank you for your time and, please standby for my next bit of analysis on this data.
+
+
+

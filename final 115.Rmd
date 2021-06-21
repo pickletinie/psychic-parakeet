@@ -1,0 +1,305 @@
+---
+Name: "Sasha Dalton-Colley"
+title: "An in-depth look at Covid-19; A rebuttal"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# insert libraries that are used for the analysis
+library("png") 
+library("patchwork") 
+library(ggplot2)
+library("easyGgplot2", lib.loc="~/R/win-library/4.0")
+library(readr)
+library(utils)
+library(lubridate)
+library(scales)
+library(tidyverse)
+library(corrr)
+library(igraph)
+library(ggraph)
+library(Hmisc)
+library("PerformanceAnalytics")
+```
+
+In a paper that was published in late 2020, as the height of the new novel SARs virus was only starting, a paper was published called, “How Political is the Spread of COVID-19 in the United States? An Analysis using Transportation and Weather Data.” it was suggested that covid-19 was being spread due to political affiliation. in the end, they ultimately decided that it was not the case for the spread, the format in which that analysis was completed seemed to be short-sided, and many corners were cut in the initial planning process for the analysis that was presented.
+
+As a student new to this field, I was all too eager to take on the challenge of looking into the information that, in my opinion at least, was overlooked. Not to mention that with my medical background this analysis really had struck a chord with me. As I work in a place where I am face-to-face with this infection on a daily basis, and I get told people's opinions about this virus has unsolicited advice just as often, I feel that with that experience I may have a slightly different outlook on this issue than the people who did the original no analysis of that I had read.
+
+As I am well aware that I am doing this analysis paper for school, I know that I probably should write it with a more formal tone. But that would be writing my paper to only accommodate for one potential audience. As I feel that this issue deserves more attention than that, I'm going to be choosing to write it with a more informal tone. This may end up being to my detriment in the end, I feel that if more people can read this and not have it be so dry that their eyes glaze over a few paragraphs in, well then- that's a win.
+
+So, before I start off on explaining my method and process, let's first take a look at the other article that got me thinking about this analysis to begin with. The article had taken our 50 states and broken them up into five clusters trying to keep populations similar to each other as well as maintaining the split along the party line. As this article was written in September 2020 the new polling for presidential election of 2020 had not transpired yet. The clusters that they chose to use was Florida to New York, Georgia, Indiana, Tennessee, Michigan, North Carolina, Ohio, Pennsylvania, to Illinois, Massachusetts, New Jersey, Virginia, and Washington in cluster two. Cluster three comprised of Texas and California. Cluster four was West Virginia and South Carolina to Connecticut, District of Columbia, Delaware, Hawaii, Maryland, Maine, New Hampshire, Rhode Island, and Vermont. And finally for cluster five we had Alaska, Alabama, Arizona, Arkansas, Iowa, Idaho, Kansas, Kentucky, Louisiana, Missouri, Mississippi, Montana, North Dakota,  Nebraska, South Dakota, Utah, Wisconsin, and Wyoming, compared to Colorado, Minnesota, New Mexico, Nevada, and Oregon.
+
+And where I understand that clustering makes it easier to do an analysis on data of this capacity it also overlooks the fact that a single state is not a single color of red or blue. An easy to see example of this is looking at the state of Illinois. Chicago is very much a blue city because his population there is larger than the rest of the state, the electoral college boats for that state go to the Democrats. However if you were to look at the county data, you would see that the rest of the state is red, and as Republican as they wish they could vote. So taking a state like that and assuming that everyone in that state is going to abide by the same mandates there set out by the government to stay in and quarantine, the reality is that we have to look at the data a lot deeper than by chunking it up into five sections based on red or blue. 
+
+```{r}
+##insert image of illinois political leaning map w/ fips##
+
+my_image <- readPNG("C:/Users/sasha/OneDrive/Documents/School/DATA115/RawR/illinoispoliticalbreakdown.png", native = TRUE)
+
+
+  inset_element(p = my_image,
+                left = 0.5,
+                bottom = 0.55,
+                right = 0.95,
+                top = 0.95)
+
+```
+
+The analysis in question also used temperature logs by states to show correlations of infection rates. To be exact a were looking at May June and July for the temperature rates. As I would hope would be common knowledge by most people at this point in their lives, we know that the further south you go the hotter it is. Which means on their chloropleth map they had generated into their analysis shows it being extremely warm from California over to North Carolina. They then used a Pearson correlation coefficients to look at the two sets of data and assume that the higher rates in those warm states were due to the warm weather. And that was all they did for the analysis. They didn't choose to look deeper into the data to see if there was any other correlation and/or causation for the higher rates in those warm places.
+
+So let's take a look at the data and see if we can surmise a different reason other than the weather for Covid rates to be so high in some places and not as high in others. We will start with just the Covid infection and death rates for the states:
+
+
+```{r}
+cstate <- read_csv("-c19statedeathdata.csv")
+head.matrix(cstate)
+```
+
+I would also like to point out that for this analysis, I will be including the US Virgin Islands and Puerto Rico. I chose not to include quantum as because it is so far away for easy travel and that I could not find all of the matching data that I used for the rest of this analysis, that it would not be viable information to include. I chose to include the US Virgin Islands and Puerto Rico as they are part of the United States, even if they are not states. In the United States will not give the land back to the people nor give them statehood, which means that the people who reside on that land should be the responsibility of the United States. So when we're looking at infection rates for the United States it seems immoral to not include them.Personally, if I had an option not to include anywhere for this analysis it would probably either be Florida because they're crazy, or New Jersey because that show was awful.
+
+Thanks to the New York Times and their GitHub, I was able to render more accurate data as I was finishing up this analysis. In looking at all those numbers it seems like a mess. So let's look at the state cases, and then state deaths:
+
+```{r}
+
+theme_set(theme_bw())
+
+df <- cstate[, c("cases", "deaths", "state")] 
+
+# labels and breaks for X axis text
+brks <- df$state[seq(4, length(df$state), 50)]
+lbls <- state.abb
+
+# plot
+ggplot(df, aes(state)) +
+  geom_area(aes(y = cases+deaths, fill= "cases")) +
+  geom_area(aes(y = deaths, fill= "deaths")) +
+  labs(title="Covid Cases & Deaths", 
+       subtitle="18 months after Discovery", 
+       caption="NYT:GitHub", 
+       y="People Affected") +  # title and caption
+     
+  scale_fill_manual(name="", 
+                    values = c("cases"="#eb7a10", "deaths"="#780f07")) +  # line color
+  theme(panel.grid.minor = element_blank())  # turn off minor grid
+```
+
+As we can see from this graph there are a few states that have quite a few more cases and deaths than others. Which leads us to the ultimate question, what causes those states to have more Covid cases and more deaths than the other states. There has been an assumption placed on the fact that the spread of Covid has been more political than not. So let's look at that more closely.
+
+
+
+
+
+
+
+
+
+```{r}
+df2 <- read.csv("bigboydatausacombined.csv")
+
+# Load data
+data("df2")
+my_data2 <- df2[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31)]
+# print the first 6 rows
+head(my_data2, 6)
+
+```
+
+
+```{r}
+corr_mat2 <- cor(df2)
+
+library(corrplot)
+corrplot(corr_mat2,title = "Overall Look at the Data") 
+
+```
+
+
+
+```{r}
+# Create a tidy data frame of correlations
+
+tidy_cors2 <- df2 
+  correlate(df2, method = "pearson", use = "complete.obs") 
+
+```
+
+
+
+```{r}
+res2 <- rcorr(as.matrix(my_data2))
+res2
+```
+
+
+```{r}
+res2$r
+```
+
+
+```{r}
+res2$P
+```
+
+
+```{r}
+flattenCorrMatrix <- function(cormat, pmat) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    row = rownames(cormat)[row(cormat)[ut]],
+    column = rownames(cormat)[col(cormat)[ut]],
+    cor  =(cormat)[ut],
+    p = pmat[ut]
+    )
+}
+```
+
+
+```{r}
+corrplot(res2$r, type="upper", order="hclust", 
+         p.mat = res2$P, sig.level = 0.01, insig = "blank")
+
+```
+
+
+```{r}
+chart.Correlation(my_data2, histogram=TRUE, pch=25)
+```
+
+
+```{r}
+df3 <- read.csv("casesvslandpop.csv")
+
+# Load data
+data("df3")
+my_data3 <- df3[, c(1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)]
+# print the first 6 rows
+head(my_data3, 6)
+```
+
+
+```{r}
+corr_mat3 <- cor(df3)
+corrplot(corr_mat3,title = "Another Look")
+```
+
+
+```{r}
+library(RColorBrewer)
+corrplot(corr_mat3, method = "color", outline = T, addgrid.col = "darkgray", addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5, addCoef.col = "white", number.digits = 2, number.cex = 0.75, col = colorRampPalette(c("darkred","white","midnightblue"))(100))
+```
+
+
+```{r}
+tidy_cors3 <- df3 
+  correlate(df3, method = "pearson", use = "complete.obs") 
+```
+
+
+```{r}
+res3 <- rcorr(as.matrix(my_data3))
+res3
+```
+
+
+```{r}
+flattenCorrMatrix <- function(cormat3, pmat) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    row = rownames(cormat3)[row(cormat3)[ut]],
+    column = rownames(cormat3)[col(cormat3)[ut]],
+    cor  =(cormat3)[ut],
+    p = pmat[ut]
+    )
+}
+```
+
+
+```{r}
+corrplot(res3$r, type="upper", order="hclust", 
+         p.mat = res3$P, sig.level = 0.01, insig = "blank")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+df4 <- read.csv("secondlook.csv")
+
+# Load data
+data("df4")
+my_data4 <- df4[, c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18)]
+# print the first 6 rows
+head(my_data4, 6)
+```
+
+
+```{r}
+corr_mat4 <- cor(df4)
+
+library(corrplot)
+corrplot(corr_mat4,title = "Overall Look at the Data") 
+```
+
+
+```{r}
+tidy_cors4 <- df4 
+  correlate(df4, method = "pearson", use = "complete.obs") 
+```
+
+```{r}
+res4 <- rcorr(as.matrix(my_data4))
+res4
+```
+
+
+```{r}
+flattenCorrMatrix <- function(cormat4, pmat) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    row = rownames(cormat4)[row(cormat3)[ut]],
+    column = rownames(cormat3)[col(cormat4)[ut]],
+    cor  =(cormat4)[ut],
+    p = pmat[ut]
+    )
+}
+```
+
+
+```{r}
+corrplot(res4$r, type="upper", order="hclust", 
+         p.mat = res4$P, sig.level = 0.01, insig = "blank")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

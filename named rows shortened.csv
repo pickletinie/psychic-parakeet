@@ -1,0 +1,54 @@
+state codes,state,,sc,1,,state_code
+1,Alabama,,p19,2,,population_age_19up
+2,Alaska,,pw,3,,population_anglosaxon_decent
+4,Arizona,,pb,4,,population_african_decent
+5,Arkansas,,pn,5,,population_native_hawaiian_islander_other_decent
+6,California,,pa,6,,population_asian_decent
+8,Colorado,,pm,7,,population_mixed_decent
+9,Connecticut,,ph,8,,population_hispanic_latino_decent
+10,Delaware,,pv,9,,population_vetrans
+11,District of Columbia,,pph,10,,persons_per_household_average
+12,Florida,,hse,11,,population_with_HS_education
+13,Georgia,,bde,12,,population_with_bachelors_degree_or_higher
+15,Hawaii,,pd,13,,population_with_disability_age_19to64
+16,Idaho,,nhi,14,,population_with_without_health_insurance
+17,Illinois,,clf,15,,population_age_16up_in_civilian_labor_force
+18,Indiana,,pip,16,,population_in_poverty
+19,Iowa,,pt,17,,population_total
+20,Kansas,,la,18,,land_area_sqmi
+21,Kentucky,,psm,19,,population_per_sqmi
+22,Louisiana,,vap,20,,voting_age_population
+23,Maine,,cf,21,,correctional_facilities
+24,Maryland,,tmp,22,,total_male_population
+25,Massachusetts,,tfp,23,,total_female_population
+26,Michigan,,a019,24,,age_0to19_total
+27,Minnesota,,a019f,25,,age_0to19_female
+28,Mississippi,,a019m,26,,age_0to19_male
+29,Missouri,,a2064,27,,age_20to64_total
+30,Montana,,a2064f,28,,age_20to64_female
+31,Nebraska,,a2064m,29,,age_20to64_male
+32,Nevada,,a65,30,,age_65up_total
+33,New Hampshire,,a65m,31,,age_65up_male
+34,New Jersey,,a65f,32,,age_65up_female
+35,New Mexico,,ccc,33,,confirmed_covid_cases_062021
+36,New York,,ccd,34,,confirmed_covid_deaths_062021
+37,North Carolina,,tv,35,,total_votes_counted
+38,North Dakota,,nv,36,,legal_age_to_vote_and_didnt
+39,Ohio,,,,,
+40,Oklahoma,,,,,
+41,Oregon,,,,,
+42,Pennsylvania,,,,,
+72,Puerto Rico,,,,,
+44,Rhode Island,,,,,
+45,South Carolina,,,,,
+46,South Dakota,,,,,
+47,Tennessee,,,,,
+48,Texas,,,,,
+49,Utah,,,,,
+50,Vermont,,,,,
+78,Virgin Islands,,,,,
+51,Virginia,,,,,
+53,Washington,,,,,
+54,West Virginia,,,,,
+55,Wisconsin,,,,,
+56,Wyoming,,,,,

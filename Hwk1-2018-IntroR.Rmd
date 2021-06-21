@@ -1,0 +1,74 @@
+---
+title: "Hwk1 - Install/run R, RStudio, Rmarkdown"
+subtitle: "Summer 2021"
+author: "Your Name.. I like that, it's annonymous.. however, I feel the credit would be also annonymous.. =/.. this is a conundrum. (Sasha DC)"
+date: "May 20^{th} 2021 "
+output:
+  word_document:
+    reference_docx: WordStyle115.docx
+---
+
+```{r setup, include=F}
+# set default parameters for knitting (output)
+# "include = F" means this particular chunk will now show in output
+# but by default, the rest of the chunks will display
+
+knitr::opts_chunk$set(echo = T,  warning=F, results="hold")
+```
+
+#Part 1
+
+## Read file
+
+Read in the hwk 1 data csv file from working directory.
+```{r read hwk1 file}
+# Note that every chunk must have a different name
+# read file
+hwk1.dat <- read.csv('hwk1-115.csv')
+View(hwk1.dat)
+summary(hwk1.dat)
+```
+
+## Plot data
+
+Be sure to replace *<Your Name>* with your actual name.
+```{r plot hwk1.dat}
+title=c("Sasha is the **bestest** Coug EVVVAAAAARRRRRRR!!")
+plot(hwk1.dat, asp=1, col="#981e32", pch=15, cex=.2, main=title, bty="n")
+```
+
+There are many graphics tools and options in R. You will learn more through the semester.
+
+Always put your answers, discussions and interpretations outside of the chunks. Only put comments that directly related to the code inside chunks.
+
+#Part 2
+
+## Bullets
+
+Bullet the statements below by starting each line with an asterisk. **Bold** "Coug". Put your name in *italics*.
+
+* *Sasha* is a **Coug**.
+* But Dave, *the video insturctor guy* thinks the Coug stuff is a bit silly.
+
+## Block quote
+
+Put the following statements in a **block quote** by starting each line with ">".
+
+> If at first you don't suceed, try, try again.
+
+> Or you can email the instructor for help. :)
+
+
+## Equations
+
+You are all familiar with the equation for the area of a circle, 
+
+$$A = \pi*r^{2}$$
+
+### Equation block
+
+You can also set an equation in a block. Use two dollar signs on front and back to put Einstein's mass-energy equivalent equation E=mc2 in an equation block.
+
+$$E=MC^{2}$$
+
+**Note**: Always put an extra line after chunks and before style changes like bullets and block quotes.
