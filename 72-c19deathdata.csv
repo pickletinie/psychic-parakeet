@@ -1,0 +1,79 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Adjuntas,Puerto Rico,72001,737,25
+6/10/2021,Aguada,Puerto Rico,72003,1739,24
+6/10/2021,Aguadilla,Puerto Rico,72005,2078,65
+6/10/2021,Aguas Buenas,Puerto Rico,72007,1565,5
+6/10/2021,Aibonito,Puerto Rico,72009,997,43
+6/10/2021,Anasco,Puerto Rico,72011,1173,83
+6/10/2021,Arecibo,Puerto Rico,72013,3727,4
+6/10/2021,Arroyo,Puerto Rico,72015,640,43
+6/10/2021,Barceloneta,Puerto Rico,72017,1118,7
+6/10/2021,Barranquitas,Puerto Rico,72019,1797,45
+6/10/2021,Bayamon,Puerto Rico,72021,12822,117
+6/10/2021,Cabo Rojo,Puerto Rico,72023,1464,7
+6/10/2021,Caguas,Puerto Rico,72025,7505,23
+6/10/2021,Camuy,Puerto Rico,72027,1602,22
+6/10/2021,Canovanas,Puerto Rico,72029,2568,54
+6/10/2021,Carolina,Puerto Rico,72031,10445,236
+6/10/2021,Catano,Puerto Rico,72033,1728,29
+6/10/2021,Cayey,Puerto Rico,72035,1817,37
+6/10/2021,Ceiba,Puerto Rico,72037,709,18
+6/10/2021,Ciales,Puerto Rico,72039,1114,97
+6/10/2021,Cidra,Puerto Rico,72041,1694,10
+6/10/2021,Coamo,Puerto Rico,72043,1353,23
+6/10/2021,Comerio,Puerto Rico,72045,1061,43
+6/10/2021,Corozal,Puerto Rico,72047,2259,36
+6/10/2021,Culebra,Puerto Rico,72049,229,0
+6/10/2021,Dorado,Puerto Rico,72051,2852,72
+6/10/2021,Fajardo,Puerto Rico,72053,1869,12
+6/10/2021,Florida,Puerto Rico,72054,1022,38
+6/10/2021,Guanica,Puerto Rico,72055,524,8
+6/10/2021,Guayama,Puerto Rico,72057,1275,15
+6/10/2021,Guayanilla,Puerto Rico,72059,759,146
+6/10/2021,Guaynabo,Puerto Rico,72061,5471,34
+6/10/2021,Gurabo,Puerto Rico,72063,2709,80
+6/10/2021,Hatillo,Puerto Rico,72065,1550,4
+6/10/2021,Hormigueros,Puerto Rico,72067,695,33
+6/10/2021,Humacao,Puerto Rico,72069,2696,16
+6/10/2021,Isabela,Puerto Rico,72071,1812,18
+6/10/2021,Jayuya,Puerto Rico,72073,777,0
+6/10/2021,Juana Diaz,Puerto Rico,72075,1570,16
+6/10/2021,Juncos,Puerto Rico,72077,2723,19
+6/10/2021,Lajas,Puerto Rico,72079,790,5
+6/10/2021,Lares,Puerto Rico,72081,1302,28
+6/10/2021,Las Marias,Puerto Rico,72083,507,5
+6/10/2021,Las Piedras,Puerto Rico,72085,2142,33
+6/10/2021,Loiza,Puerto Rico,72087,1633,21
+6/10/2021,Luquillo,Puerto Rico,72089,1112,7
+6/10/2021,Manati,Puerto Rico,72091,2091,42
+6/10/2021,Maricao,Puerto Rico,72093,336,7
+6/10/2021,Maunabo,Puerto Rico,72095,649,14
+6/10/2021,Mayaguez,Puerto Rico,72097,2690,121
+6/10/2021,Moca,Puerto Rico,72099,1874,7
+6/10/2021,Morovis,Puerto Rico,72101,1920,9
+6/10/2021,Naguabo,Puerto Rico,72103,1395,4
+6/10/2021,Naranjito,Puerto Rico,72105,2227,11
+6/10/2021,Orocovis,Puerto Rico,72107,1292,12
+6/10/2021,Patillas,Puerto Rico,72109,690,19
+6/10/2021,Penuelas,Puerto Rico,72111,848,31
+6/10/2021,Ponce,Puerto Rico,72113,4276,14
+6/10/2021,Quebradillas,Puerto Rico,72115,1210,9
+6/10/2021,Rincon,Puerto Rico,72117,852,18
+6/10/2021,Rio Grande,Puerto Rico,72119,2729,15
+6/10/2021,Sabana Grande,Puerto Rico,72121,728,12
+6/10/2021,Salinas,Puerto Rico,72123,1395,16
+6/10/2021,San German,Puerto Rico,72125,1010,29
+6/10/2021,San Juan,Puerto Rico,72127,22770,124
+6/10/2021,San Lorenzo,Puerto Rico,72129,2222,12
+6/10/2021,San Sebastian,Puerto Rico,72131,2142,9
+6/10/2021,Santa Isabel,Puerto Rico,72133,882,26
+6/10/2021,Toa Alta,Puerto Rico,72135,4946,19
+6/10/2021,Toa Baja,Puerto Rico,72137,5049,25
+6/10/2021,Trujillo Alto,Puerto Rico,72139,3849,17
+6/10/2021,Utuado,Puerto Rico,72141,1261,13
+6/10/2021,Vega Alta,Puerto Rico,72143,2468,27
+6/10/2021,Vega Baja,Puerto Rico,72145,3635,86
+6/10/2021,Vieques,Puerto Rico,72147,389,22
+6/10/2021,Villalba,Puerto Rico,72149,1063,19
+6/10/2021,Yabucoa,Puerto Rico,72151,1585,54
+6/10/2021,Yauco,Puerto Rico,72153,1442,76

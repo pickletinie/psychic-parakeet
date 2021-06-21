@@ -1,0 +1,255 @@
+state,county,fips,POP tot,land area (sq/mi),pop/sqmi
+West Virginia,Barbour,54001,16441,341,48.2
+West Virginia,Berkeley,54003,119171,321,371.2
+West Virginia,Boone,54005,21457,503,42.7
+West Virginia,Braxton,54007,13957,514,27.2
+West Virginia,Brooke,54009,21939,89,246.5
+West Virginia,Cabell,54011,91945,282,326
+West Virginia,Calhoun,54013,7109,281,25.3
+West Virginia,Clay,54015,8508,342,24.9
+West Virginia,Doddridge,54017,8448,320,26.4
+West Virginia,Fayette,54019,42406,664,63.9
+West Virginia,Gilmer,54021,7823,340,23
+West Virginia,Grant,54023,11568,477,24.3
+West Virginia,Greenbrier,54025,34662,1021,33.9
+West Virginia,Hampshire,54027,23175,642,36.1
+West Virginia,Hancock,54029,28810,83,347.1
+West Virginia,Hardy,54031,13776,583,23.6
+West Virginia,Harrison,54033,67256,416,161.7
+West Virginia,Jackson,54035,28576,466,61.3
+West Virginia,Jefferson,54037,57146,210,272.1
+West Virginia,Kanawha,54039,178124,903,197.3
+West Virginia,Lewis,54041,15907,389,40.9
+West Virginia,Lincoln,54043,20409,438,46.6
+West Virginia,Logan,54045,32019,454,70.5
+West Virginia,McDowell,54047,17624,310,56.9
+West Virginia,Marion,54049,56072,307,182.6
+West Virginia,Marshall,54051,30531,432,70.7
+West Virginia,Mason,54053,26516,535,49.6
+West Virginia,Mercer,54055,58758,420,139.9
+West Virginia,Mineral,54057,26868,328,81.9
+West Virginia,Mingo,54059,23424,423,55.4
+West Virginia,Monongalia,54061,105612,361,292.6
+West Virginia,Monroe,54063,13275,473,28.1
+West Virginia,Morgan,54065,17884,229,78.1
+West Virginia,Nicholas,54067,24496,649,37.7
+West Virginia,Ohio,54069,41411,106,390.7
+West Virginia,Pendleton,54071,6969,698,10
+West Virginia,Pleasants,54073,7460,131,56.9
+West Virginia,Pocahontas,54075,8247,940,8.8
+West Virginia,Preston,54077,33432,648,51.6
+West Virginia,Putnam,54079,56450,346,163.2
+West Virginia,Raleigh,54081,73361,607,120.9
+West Virginia,Randolph,54083,28695,1040,27.6
+West Virginia,Ritchie,54085,9554,454,21
+West Virginia,Roane,54087,13688,484,28.3
+West Virginia,Summers,54089,12573,361,34.8
+West Virginia,Taylor,54091,16695,173,96.5
+West Virginia,Tucker,54093,6839,419,16.3
+West Virginia,Tyler,54095,8591,258,33.3
+West Virginia,Upshur,54097,24176,355,68.1
+West Virginia,Wayne,54099,39402,506,77.9
+West Virginia,Webster,54101,8114,556,14.6
+West Virginia,Wetzel,54103,15065,359,42
+West Virginia,Wirt,54105,5821,233,25
+West Virginia,Wood,54107,83518,367,227.6
+West Virginia,Wyoming,54109,20394,501,40.7
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

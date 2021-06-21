@@ -1,0 +1,4 @@
+state,county,fips,votes gop,votes dem,total votes,% GOP,% DEM,% Votes,majority,POP tot
+Virgin Islands,St. Croix,78010,47,7357,8351,0.56%,88.10%,88.66%,LEFT,"50,601"
+Virgin Islands,St. John,78020,4,606,688,0.58%,88.08%,88.66%,LEFT,4170
+Virgin Islands,St. Thomas,78030,48,7507,8522,0.56%,88.09%,88.65%,LEFT,51634

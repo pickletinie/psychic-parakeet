@@ -1,0 +1,255 @@
+state,county,fips,POP tot,land area (sq/mi),pop/sqmi
+Puerto Rico,Adjuntas,72001,17363,66.7,260.4
+Puerto Rico,Aguada,72003,36694,30.9,1189.4
+Puerto Rico,Aguadilla,72005,50265,36.5,1376
+Puerto Rico,Aguas Buenas,72007,24814,30.1,824.9
+Puerto Rico,Aibonito,72009,22108,31.3,706.1
+Puerto Rico,Anasco,72011,26161,39.3,665.8
+Puerto Rico,Arecibo,72013,81966,126,650.8
+Puerto Rico,Arroyo,72015,17238,15,1148.4
+Puerto Rico,Barceloneta,72017,23727,18.7,1269.5
+Puerto Rico,Barranquitas,72019,27725,34.3,809.5
+Puerto Rico,Bayamon,72021,169269,44.3,3819.2
+Puerto Rico,Cabo Rojo,72023,47515,70.4,675.2
+Puerto Rico,Caguas,72025,124606,58.6,2126.4
+Puerto Rico,Camuy,72027,30504,46.4,658.1
+Puerto Rico,Canovanas,72029,44674,32.9,1359.1
+Puerto Rico,Carolina,72031,146984,45.3,3243.2
+Puerto Rico,Catano,72033,23121,4.8,4777.1
+Puerto Rico,Cayey,72035,42409,51.9,816.7
+Puerto Rico,Ceiba,72037,10904,29,375.5
+Puerto Rico,Ciales,72039,15808,66.5,237.6
+Puerto Rico,Cidra,72041,38307,36,1063.5
+Puerto Rico,Coamo,72043,38336,78.1,490.9
+Puerto Rico,Comerio,72045,18648,28.4,656.6
+Puerto Rico,Corozal,72047,32293,42.6,758.6
+Puerto Rico,Culebra,72049,1714,11.6,147.5
+Puerto Rico,Dorado,72051,36141,23.1,1565.2
+Puerto Rico,Fajardo,72053,29454,29.9,986.4
+Puerto Rico,Florida,72054,11317,15.2,744
+Puerto Rico,Guanica,72055,15383,37.1,415.2
+Puerto Rico,Guayama,72057,39465,65,607.2
+Puerto Rico,Guayanilla,72059,17623,42.3,416.9
+Puerto Rico,Guaynabo,72061,83728,27.6,3035.8
+Puerto Rico,Gurabo,72063,47093,27.9,1688.5
+Puerto Rico,Hatillo,72065,39218,41.8,938.7
+Puerto Rico,Hormigueros,72067,15518,11.3,1368.4
+Puerto Rico,Humacao,72069,50653,44.8,1131.9
+Puerto Rico,Isabela,72071,40423,55.3,731
+Puerto Rico,Jayuya,72073,13891,44.5,311.9
+Puerto Rico,Juana Diaz,72075,44679,60.3,741.2
+Puerto Rico,Juncos,72077,38155,26.5,1440.4
+Puerto Rico,Lajas,72079,22010,60,367.1
+Puerto Rico,Lares,72081,24276,61.5,395.1
+Puerto Rico,Las Marias,72083,7927,46.4,171
+Puerto Rico,Las Piedras,72085,37007,33.9,1092.3
+Puerto Rico,Loiza,72087,24553,19.4,1267.6
+Puerto Rico,Luquillo,72089,17665,25.8,684.4
+Puerto Rico,Manati,72091,37287,46.1,808.3
+Puerto Rico,Maricao,72093,5430,36.6,148.3
+Puerto Rico,Maunabo,72095,10321,21.1,489.8
+Puerto Rico,Mayaguez,72097,71530,77.7,921.2
+Puerto Rico,Moca,72099,34891,50.3,693.1
+Puerto Rico,Morovis,72101,30335,38.9,780.4
+Puerto Rico,Naguabo,72103,25761,51.7,498.7
+Puerto Rico,Naranjito,72105,27349,27.4,998.1
+Puerto Rico,Orocovis,72107,20220,63.6,317.8
+Puerto Rico,Patillas,72109,16211,46.7,347.1
+Puerto Rico,Penuelas,72111,19249,44.6,431.4
+Puerto Rico,Ponce,72113,131881,114.8,1149.2
+Puerto Rico,Quebradillas,72115,22918,22.7,1010.5
+Puerto Rico,Rincon,72117,13656,14.3,955.6
+Puerto Rico,Rio Grande,72119,48025,60.6,792.2
+Puerto Rico,Sabana Grande,72121,21712,35.8,606
+Puerto Rico,Salinas,72123,27128,69.4,391.1
+Puerto Rico,San German,72125,30227,54.5,554.6
+Puerto Rico,San Juan,72127,318441,47.9,6655
+Puerto Rico,San Lorenzo,72129,35989,53.1,677.6
+Puerto Rico,San Sebastian,72131,35528,70.4,504.5
+Puerto Rico,Santa Isabel,72133,21209,34,623.4
+Puerto Rico,Toa Alta,72135,72025,27,2665.6
+Puerto Rico,Toa Baja,72137,74271,23.2,3195.8
+Puerto Rico,Trujillo Alto,72139,63674,20.8,3067.1
+Puerto Rico,Utuado,72141,27395,113.5,241.3
+Puerto Rico,Vega Alta,72143,36061,27.7,1300.4
+Puerto Rico,Vega Baja,72145,50023,45.9,1090.8
+Puerto Rico,Vieques,72147,8386,50.8,165.2
+Puerto Rico,Villalba,72149,21372,35.6,599.7
+Puerto Rico,Yabucoa,72151,32282,55.2,584.7
+Puerto Rico,Yauco,72153,33575,68.2,492.4
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

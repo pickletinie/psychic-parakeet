@@ -1,0 +1,54 @@
+state,fips,Leaning per % of vote,2016 presidental election,2020 presidential election
+Alabama,1,Right,Right,Right
+Alaska,2,Right,Right,Right
+Arizona,4,Left,Right,Left
+Arkansas,5,Right,Right,Right
+California,6,Left,Left,Left
+Colorado,8,Left,Left,Left
+Connecticut,9,Left,Left,Left
+Delaware,10,Left,Left,Left
+District of Columbia,11,Left,Left,Left
+Florida,12,Right,Right,Right
+Georgia,13,Left,Right,Left
+Hawaii,15,Left,Left,Left
+Idaho,16,Right,Right,Right
+Illinois,17,Left,Left,Left
+Indiana,18,Right,Right,Right
+Iowa,19,Right,Right,Right
+Kansas,20,Right,Right,Right
+Kentucky,21,Right,Right,Right
+Louisiana,22,Right,Right,Right
+Maine,23,Left,Right,Left
+Maryland,24,Left,Left,Left
+Massachusetts,25,Left,Left,Left
+Michigan,26,Left,Left,Left
+Minnesota,27,Left,Right,Left
+Mississippi,28,Right,Right,Right
+Missouri,29,Right,Right,Right
+Montana,30,Right,Right,Right
+Nebraska,31,Right,Right,Right
+Nevada,32,Left,Left,Left
+New Hampshire,33,Left,Left,Left
+New Jersey,34,Left,Left,Left
+New Mexico,35,Left,Left,Left
+New York,36,Left,Left,Left
+North Carolina,37,Right,Right,Right
+North Dakota,38,Right,Right,Right
+Ohio,39,Right,Right,Right
+Oklahoma,40,Right,Right,Right
+Oregon,41,Left,Left,Left
+Pennsylvania,42,Left,Right,Left
+Puerto Rico,72,Left,,
+Rhode Island,44,Left,Left,Left
+South Carolina,45,Right,Right,Right
+South Dakota,46,Right,Right,Right
+Tennessee,47,Right,Right,Right
+Texas,48,Right,Right,Right
+Utah,49,Right,Right,Right
+Vermont,50,Left,Left,Left
+Virgin Islands,78,Left,,
+Virginia,51,Left,Left,Left
+Washington,53,Left,Left,Left
+West Virginia,54,Right,Right,Right
+Wisconsin,55,Left,Right,Left
+Wyoming,56,Right,Right,Right

@@ -1,0 +1,255 @@
+state,county,fips,POP tot,land area (sq/mi),pop/sqmi
+Virginia,Accomack,51001,32316,455,71
+Virginia,Albemarle,51003,109330,723,151.2
+Virginia,Alleghany,51005,14860,446,33.3
+Virginia,Amelia,51007,13145,357,36.8
+Virginia,Amherst,51009,31605,475,66.5
+Virginia,Appomattox,51011,15911,334,47.6
+Virginia,Arlington,51013,236842,26,9109.3
+Virginia,Augusta,51015,75558,971,77.8
+Virginia,Bath,51017,4147,532,7.8
+Virginia,Bedford,51019,78997,755,104.6
+Virginia,Bland,51021,6280,359,17.5
+Virginia,Botetourt,51023,33419,543,61.5
+Virginia,Brunswick,51025,16231,566,28.7
+Virginia,Buchanan,51027,21004,504,41.7
+Virginia,Buckingham,51029,17148,581,29.5
+Virginia,Campbell,51031,54885,504,108.9
+Virginia,Caroline,51033,30725,533,57.6
+Virginia,Carroll,51035,29791,476,62.6
+Virginia,Charles City,51036,6963,182,38.3
+Virginia,Charlotte,51037,11880,475,25
+Virginia,Chesterfield,51041,352802,426,828.2
+Virginia,Clarke,51043,14619,177,82.6
+Virginia,Craig,51045,5131,330,15.5
+Virginia,Culpeper,51047,52605,381,138.1
+Virginia,Cumberland,51049,9932,298,33.3
+Virginia,Dickenson,51051,14318,333,43
+Virginia,Dinwiddie,51053,28544,504,56.6
+Virginia,Essex,51057,10953,258,42.5
+Virginia,Fairfax,51059,1147532,396,2897.8
+Virginia,Fauquier,51061,71222,650,109.6
+Virginia,Floyd,51063,15749,382,41.2
+Virginia,Fluvanna,51065,27270,287,95
+Virginia,Franklin,51067,56042,692,81
+Virginia,Frederick,51069,89313,415,215.2
+Virginia,Giles,51071,16720,358,46.7
+Virginia,Gloucester,51073,37348,217,172.1
+Virginia,Goochland,51075,23753,284,83.6
+Virginia,Grayson,51077,15550,443,35.1
+Virginia,Greene,51079,19819,157,126.2
+Virginia,Greensville,51081,11336,296,38.3
+Virginia,Halifax,51083,33911,814,41.7
+Virginia,Hanover,51085,107766,473,227.8
+Virginia,Henrico,51087,330818,238,1390
+Virginia,Henry,51089,50557,382,132.3
+Virginia,Highland,51091,2190,416,5.3
+Virginia,Isle of Wight,51093,37109,316,117.4
+Virginia,James City,51095,76523,143,535.1
+Virginia,King and Queen,51097,7025,316,22.2
+Virginia,King George,51099,26836,180,149.1
+Virginia,King William,51101,17148,275,62.4
+Virginia,Lancaster,51103,10603,133,79.7
+Virginia,Lee,51105,23423,437,53.6
+Virginia,Loudoun,51107,413538,520,795.3
+Virginia,Louisa,51109,37591,498,75.5
+Virginia,Lunenburg,51111,12196,432,28.2
+Virginia,Madison,51113,13261,322,41.2
+Virginia,Mathews,51115,8834,86,102.7
+Virginia,Mecklenburg,51117,30587,624,49
+Virginia,Middlesex,51119,10582,130,81.4
+Virginia,Montgomery,51121,98535,388,254
+Virginia,Nelson,51125,14930,472,31.6
+Virginia,New Kent,51127,23091,210,110
+Virginia,Northampton,51131,11710,207,56.6
+Virginia,Northumberland,51133,12095,192,63
+Virginia,Nottoway,51135,15232,315,48.4
+Virginia,Orange,51137,37051,342,108.3
+Virginia,Page,51139,23902,311,76.9
+Virginia,Patrick,51141,17608,483,36.5
+Virginia,Pittsylvania,51143,60354,978,61.7
+Virginia,Powhatan,51145,29652,261,113.6
+Virginia,Prince Edward,51147,22802,353,64.6
+Virginia,Prince George,51149,38353,266,144.2
+Virginia,Prince William,51153,470335,338,1391.5
+Virginia,Pulaski,51155,34027,321,106
+Virginia,Rappahannock,51157,7370,267,27.6
+Virginia,Richmond,51159,9023,192,47
+Virginia,Roanoke,51161,94186,25,3767.4
+Virginia,Rockbridge,51163,22573,600,37.6
+Virginia,Rockingham,51165,81948,851,96.3
+Virginia,Russell,51167,26586,475,56
+Virginia,Scott,51169,21566,537,40.2
+Virginia,Shenandoah,51171,43616,512,85.2
+Virginia,Smyth,51173,30104,452,66.6
+Virginia,Southampton,51175,17631,600,29.4
+Virginia,Spotsylvania,51177,136215,401,339.7
+Virginia,Stafford,51179,152882,270,566.2
+Virginia,Surry,51181,6422,279,23
+Virginia,Sussex,51183,11159,491,22.7
+Virginia,Tazewell,51185,40595,520,78.1
+Virginia,Warren,51187,40164,214,187.7
+Virginia,Washington,51191,53740,564,95.3
+Virginia,Westmoreland,51193,18015,229,78.7
+Virginia,Wise,51195,37383,403,92.8
+Virginia,Wythe,51197,28684,463,62
+Virginia,York,51199,68280,106,644.2
+Virginia,Alexandria city,51510,159428,15,10628.5
+Virginia,Bristol city,51520,16762,12,1396.8
+Virginia,Buena Vista city,51530,6478,7,925.4
+Virginia,Charlottesville city,51540,47266,10,4726.6
+Virginia,Chesapeake city,51550,244835,341,718
+Virginia,Colonial Heights city,51570,17370,8,2171.3
+Virginia,Covington city,51580,5538,4,1384.5
+Virginia,Danville city,51590,40044,43,931.3
+Virginia,Emporia city,51595,5346,7,763.7
+Virginia,Fairfax city,51600,24019,6,4003.2
+Virginia,Falls Church city,51610,14617,2.1,6960.5
+Virginia,Franklin city,51620,7967,8,995.9
+Virginia,Fredericksburg city,51630,29036,10,2903.6
+Virginia,Galax city,51640,6347,8,793.4
+Virginia,Hampton city,51650,134510,52,2586.7
+Virginia,Harrisonburg city,51660,53016,18,2945.3
+Virginia,Hopewell city,51670,22529,10,2252.9
+Virginia,Lexington city,51678,7446,2.5,2978.4
+Virginia,Lynchburg city,51680,82168,49,1676.9
+Virginia,Manassas city,51683,41085,10,4108.5
+Virginia,Manassas Park city,51685,17478,2.5,6991.2
+Virginia,Martinsville city,51690,12554,11,1141.3
+Virginia,Newport News city,51700,179225,68,2635.7
+Virginia,Norfolk city,51710,242742,54,4495.2
+Virginia,Norton city,51720,3981,7,568.7
+Virginia,Petersburg city,51730,31346,23,1362.9
+Virginia,Poquoson city,51735,12271,16,766.9
+Virginia,Portsmouth city,51740,94398,33,2860.5
+Virginia,Radford city,51750,18249,10,1824.9
+Virginia,Richmond city,51760,230436,60,3840.6
+Virginia,Roanoke city,51770,99143,43,2305.7
+Virginia,Salem city,51775,25301,15,1686.7
+Virginia,Staunton city,51790,24932,20,1246.6
+Virginia,Suffolk city,51800,92108,400,230.3
+Virginia,Virginia Beach city,51810,449974,248,1814.4
+Virginia,Waynesboro city,51820,22630,14,1616.4
+Virginia,Williamsburg city,51830,14954,9,1661.6
+Virginia,Winchester city,51840,28078,9,3119.8
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

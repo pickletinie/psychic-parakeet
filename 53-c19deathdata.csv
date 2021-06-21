@@ -1,0 +1,40 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Adams,Washington,53001,2206,24
+6/10/2021,Asotin,Washington,53003,1489,29
+6/10/2021,Benton,Washington,53005,17475,219
+6/10/2021,Chelan,Washington,53007,7037,68
+6/10/2021,Clallam,Washington,53009,1363,12
+6/10/2021,Clark,Washington,53011,25410,281
+6/10/2021,Columbia,Washington,53013,127,6
+6/10/2021,Cowlitz,Washington,53015,6399,84
+6/10/2021,Douglas,Washington,53017,3732,23
+6/10/2021,Ferry,Washington,53019,389,8
+6/10/2021,Franklin,Washington,53021,12657,114
+6/10/2021,Garfield,Washington,53023,126,5
+6/10/2021,Grant,Washington,53025,10595,124
+6/10/2021,Grays Harbor,Washington,53027,4510,74
+6/10/2021,Island,Washington,53029,1813,29
+6/10/2021,Jefferson,Washington,53031,426,4
+6/10/2021,King,Washington,53033,110801,1613
+6/10/2021,Kitsap,Washington,53035,8598,114
+6/10/2021,Kittitas,Washington,53037,3213,33
+6/10/2021,Klickitat,Washington,53039,829,10
+6/10/2021,Lewis,Washington,53041,5123,72
+6/10/2021,Lincoln,Washington,53043,651,10
+6/10/2021,Mason,Washington,53045,2869,37
+6/10/2021,Okanogan,Washington,53047,2709,41
+6/10/2021,Pacific,Washington,53049,991,12
+6/10/2021,Pend Oreille,Washington,53051,810,9
+6/10/2021,Pierce,Washington,53053,56060,663
+6/10/2021,San Juan,Washington,53055,186,0
+6/10/2021,Skagit,Washington,53057,5953,74
+6/10/2021,Skamania,Washington,53059,369,1
+6/10/2021,Snohomish,Washington,53061,39425,586
+6/10/2021,Spokane,Washington,53063,46653,667
+6/10/2021,Stevens,Washington,53065,2339,28
+6/10/2021,Thurston,Washington,53067,10625,109
+6/10/2021,Wahkiakum,Washington,53069,146,1
+6/10/2021,Walla Walla,Washington,53071,5272,67
+6/10/2021,Whatcom,Washington,53073,9691,99
+6/10/2021,Whitman,Washington,53075,4364,50
+6/10/2021,Yakima,Washington,53077,31421,446

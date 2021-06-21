@@ -1,0 +1,15 @@
+date,county,state,fips,cases,deaths
+6/10/2021,Addison,Vermont,50001,1062,8
+6/10/2021,Bennington,Vermont,50003,2046,15
+6/10/2021,Caledonia,Vermont,50005,1073,7
+6/10/2021,Chittenden,Vermont,50007,7508,104
+6/10/2021,Essex,Vermont,50009,294,2
+6/10/2021,Franklin,Vermont,50011,2029,39
+6/10/2021,Grand Isle,Vermont,50013,249,2
+6/10/2021,Lamoille,Vermont,50015,887,3
+6/10/2021,Orange,Vermont,50017,820,3
+6/10/2021,Orleans,Vermont,50019,1292,11
+6/10/2021,Rutland,Vermont,50021,2280,20
+6/10/2021,Washington,Vermont,50023,1896,15
+6/10/2021,Windham,Vermont,50025,1387,14
+6/10/2021,Windsor,Vermont,50027,1501,13
